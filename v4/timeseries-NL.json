@@ -15671,25 +15671,27 @@
         "delta": {
           "confirmed": 63,
           "deceased": 1,
-          "recovered": 97
+          "other": 2,
+          "recovered": 97,
+          "tested": 587
         },
         "delta7": {
           "confirmed": 750,
           "deceased": 29,
-          "other": 69,
+          "other": 71,
           "precautionary": 2161,
           "recovered": 496,
-          "tested": 3724,
+          "tested": 4311,
           "vaccinated1": 9122,
           "vaccinated2": 3898
         },
         "total": {
           "confirmed": 34404,
           "deceased": 736,
-          "other": 1404,
+          "other": 1406,
           "precautionary": 11150,
           "recovered": 31415,
-          "tested": 442371,
+          "tested": 442958,
           "vaccinated1": 842587,
           "vaccinated2": 609925
         }
@@ -29081,18 +29083,20 @@
           "2022-01-31": {
             "delta": {
               "confirmed": 51,
+              "deceased": 1,
+              "other": 2,
               "recovered": 53
             },
             "delta7": {
               "confirmed": 548,
-              "deceased": 26,
-              "other": 61,
+              "deceased": 27,
+              "other": 63,
               "recovered": 345
             },
             "total": {
               "confirmed": 16636,
-              "deceased": 462,
-              "other": 1010,
+              "deceased": 463,
+              "other": 1012,
               "recovered": 14549,
               "tested": 47020,
               "vaccinated1": 239094,
@@ -115397,22 +115401,6 @@
           "2020-10-28": {
             "delta": {
               "recovered": -35
-            }
-          },
-          "2020-11-03": {
-            "delta7": {
-              "recovered": -35
-            }
-          },
-          "2022-01-31": {
-            "delta": {
-              "deceased": 1
-            },
-            "delta7": {
-              "deceased": 1
-            },
-            "total": {
-              "deceased": 1
             }
           }
         }
