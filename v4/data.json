@@ -8899,7 +8899,9 @@
     "delta": {
       "confirmed": 9,
       "deceased": 1,
-      "recovered": 28
+      "other": 1,
+      "recovered": 28,
+      "tested": 435
     },
     "delta21_14": {
       "confirmed": 428
@@ -8907,10 +8909,10 @@
     "delta7": {
       "confirmed": 75,
       "deceased": 1,
-      "other": 1,
+      "other": 2,
       "precautionary": 1385,
       "recovered": 254,
-      "tested": 2859,
+      "tested": 3294,
       "vaccinated1": 4405,
       "vaccinated2": 11146
     },
@@ -8918,6 +8920,8 @@
       "Dimapur": {
         "delta": {
           "confirmed": 5,
+          "deceased": 1,
+          "other": 1,
           "recovered": 9
         },
         "delta21_14": {
@@ -8925,7 +8929,8 @@
         },
         "delta7": {
           "confirmed": 39,
-          "other": 1,
+          "deceased": 1,
+          "other": 2,
           "recovered": 134
         },
         "meta": {
@@ -8936,8 +8941,8 @@
         },
         "total": {
           "confirmed": 17220,
-          "deceased": 472,
-          "other": 1070,
+          "deceased": 473,
+          "other": 1071,
           "recovered": 15571,
           "tested": 47020
         }
@@ -9119,17 +9124,6 @@
           "tested": 4887
         }
       },
-      "Unknown": {
-        "delta": {
-          "deceased": 1
-        },
-        "delta7": {
-          "deceased": 1
-        },
-        "total": {
-          "deceased": 1
-        }
-      },
       "Wokha": {
         "delta21_14": {
           "confirmed": 5
@@ -9170,20 +9164,20 @@
     },
     "meta": {
       "date": "2022-02-23",
-      "last_updated": "2022-02-23T18:07:06+05:30",
+      "last_updated": "2022-02-23T18:42:48+05:30",
       "population": 2150000,
       "tested": {
-        "date": "2022-02-22",
-        "source": "https://twitter.com/MyGovNagaland/status/1496106269643575296?s=20&t=czTN21S_E1dVFQ8F5aqITQ"
+        "date": "2022-02-23",
+        "source": "https://twitter.com/HealthNagaland/status/1496470867936792586?s=20&t=OrNgz7_gbUAuHQ8CCVsb6w"
       }
     },
     "total": {
       "confirmed": 35381,
       "deceased": 754,
-      "other": 1476,
+      "other": 1477,
       "precautionary": 20205,
       "recovered": 32965,
-      "tested": 457838,
+      "tested": 458273,
       "vaccinated1": 867409,
       "vaccinated2": 640577
     }
@@ -12466,6 +12460,7 @@
     "delta": {
       "confirmed": 1607,
       "deceased": 5,
+      "other": 1,
       "recovered": 2217
     },
     "delta21_14": {
@@ -12474,7 +12469,7 @@
     "delta7": {
       "confirmed": 114451,
       "deceased": 2214,
-      "other": 59,
+      "other": 60,
       "precautionary": 1133489,
       "recovered": 280005,
       "tested": 6881558,
@@ -12483,7 +12478,7 @@
     },
     "meta": {
       "date": "2022-02-23",
-      "last_updated": "2022-02-23T18:26:28+05:30",
+      "last_updated": "2022-02-23T18:42:48+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-02-22"
@@ -12492,7 +12487,7 @@
     "total": {
       "confirmed": 42867177,
       "deceased": 512658,
-      "other": 17681,
+      "other": 17682,
       "precautionary": 19358763,
       "recovered": 42180610,
       "tested": 762414018,
