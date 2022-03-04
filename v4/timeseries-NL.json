@@ -17061,25 +17061,27 @@
         "delta": {
           "confirmed": 3,
           "deceased": 1,
-          "recovered": 18
+          "other": 2,
+          "recovered": 18,
+          "tested": 369
         },
         "delta7": {
           "confirmed": 22,
           "deceased": 3,
-          "other": 1,
+          "other": 3,
           "precautionary": 563,
           "recovered": 91,
-          "tested": 1776,
+          "tested": 2145,
           "vaccinated1": 1240,
           "vaccinated2": 2892
         },
         "total": {
           "confirmed": 35417,
           "deceased": 757,
-          "other": 1479,
+          "other": 1481,
           "precautionary": 21563,
           "recovered": 33115,
-          "tested": 460855,
+          "tested": 461224,
           "vaccinated1": 871450,
           "vaccinated2": 649619
         }
@@ -47690,16 +47692,18 @@
           "2022-03-04": {
             "delta": {
               "confirmed": 2,
+              "deceased": 1,
               "recovered": 3
             },
             "delta7": {
               "confirmed": 5,
+              "deceased": 1,
               "other": 1,
               "recovered": 8
             },
             "total": {
               "confirmed": 10040,
-              "deceased": 131,
+              "deceased": 132,
               "other": 235,
               "recovered": 9662,
               "tested": 33986
@@ -82310,15 +82314,17 @@
           },
           "2022-03-04": {
             "delta": {
+              "other": 2,
               "recovered": 3
             },
             "delta7": {
+              "other": 2,
               "recovered": 5
             },
             "total": {
               "confirmed": 987,
               "deceased": 6,
-              "other": 19,
+              "other": 21,
               "recovered": 957,
               "tested": 5717
             }
@@ -99172,22 +99178,6 @@
           "2020-10-28": {
             "delta": {
               "recovered": -35
-            }
-          },
-          "2020-11-03": {
-            "delta7": {
-              "recovered": -35
-            }
-          },
-          "2022-03-04": {
-            "delta": {
-              "deceased": 1
-            },
-            "delta7": {
-              "deceased": 1
-            },
-            "total": {
-              "deceased": 1
             }
           }
         }
