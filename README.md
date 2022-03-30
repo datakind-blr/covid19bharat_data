@@ -39,6 +39,7 @@
 | :green_heart: | vaccine_doses_administered_statewise      | <http://data.covid19bharat.org/csv/latest/vaccine_doses_statewise_v2.csv>  | Number of vaccine doses administered statewise - Collected from MOHFW daily bulletin                              |
 | :green_heart: | cowin_vaccine_data_statewise      | <http://data.covid19bharat.org/csv/latest/cowin_vaccine_data_statewise.csv>  | Key data points from CoWin database at a state level                              |
 | :green_heart: | cowin_vaccine_data_districtwise      | <http://data.covid19bharat.org/csv/latest/cowin_vaccine_data_districtwise.csv>  | Key data points from CoWin database at a district level                           |
+| :green_heart: | cowin_vaccine_data_districtwise_v2     | <http://data.covid19bharat.org/csv/latest/cowin_vaccine_data_districtwise_v2.csv>  | Key data points from CoWin database at a district level V2                         |
 
 Latest data from the google sheet (10-20 minutes delayed) is available through the `latest` end-point.
 These endpoints should be avoided unless none of the above endpoints work for you.
