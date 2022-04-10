@@ -3120,7 +3120,9 @@
   },
   "CH": {
     "delta": {
+      "confirmed": 2,
       "precautionary": 319,
+      "recovered": 2,
       "vaccinated1": 754,
       "vaccinated2": 839
     },
@@ -3128,9 +3130,9 @@
       "confirmed": 27
     },
     "delta7": {
-      "confirmed": 11,
+      "confirmed": 13,
       "precautionary": 1619,
-      "recovered": 15,
+      "recovered": 17,
       "tested": 6262,
       "vaccinated1": 4643,
       "vaccinated2": 4273
@@ -3138,7 +3140,9 @@
     "districts": {
       "Chandigarh": {
         "delta": {
+          "confirmed": 2,
           "precautionary": 319,
+          "recovered": 2,
           "vaccinated1": 754,
           "vaccinated2": 839
         },
@@ -3146,9 +3150,9 @@
           "confirmed": 27
         },
         "delta7": {
-          "confirmed": 11,
+          "confirmed": 13,
           "precautionary": 1619,
-          "recovered": 15,
+          "recovered": 17,
           "tested": 6262,
           "vaccinated1": 4643,
           "vaccinated2": 4273
@@ -3164,10 +3168,10 @@
           }
         },
         "total": {
-          "confirmed": 91937,
+          "confirmed": 91939,
           "deceased": 1165,
           "precautionary": 29914,
-          "recovered": 90759,
+          "recovered": 90761,
           "tested": 1127021,
           "vaccinated1": 1140260,
           "vaccinated2": 911095
@@ -3176,7 +3180,7 @@
     },
     "meta": {
       "date": "2022-04-09",
-      "last_updated": "2022-04-10T10:23:11+05:30",
+      "last_updated": "2022-04-10T14:23:13+05:30",
       "population": 1179000,
       "tested": {
         "date": "2022-04-07",
@@ -3187,10 +3191,10 @@
       }
     },
     "total": {
-      "confirmed": 91937,
+      "confirmed": 91939,
       "deceased": 1165,
       "precautionary": 29914,
-      "recovered": 90759,
+      "recovered": 90761,
       "tested": 1127021,
       "vaccinated1": 1140260,
       "vaccinated2": 911095
@@ -6592,6 +6596,7 @@
   "JH": {
     "delta": {
       "precautionary": 1241,
+      "recovered": 1,
       "vaccinated1": 12390,
       "vaccinated2": 19152
     },
@@ -6601,7 +6606,7 @@
     "delta7": {
       "confirmed": 15,
       "precautionary": 8973,
-      "recovered": 43,
+      "recovered": 44,
       "tested": 38776,
       "vaccinated1": 93767,
       "vaccinated2": 132345
@@ -7218,6 +7223,17 @@
           "vaccinated2": 381386
         }
       },
+      "Unknown": {
+        "delta": {
+          "recovered": 1
+        },
+        "delta7": {
+          "recovered": 1
+        },
+        "total": {
+          "recovered": 1
+        }
+      },
       "West Singhbhum": {
         "delta": {
           "precautionary": 33,
@@ -7247,7 +7263,7 @@
     },
     "meta": {
       "date": "2022-04-09",
-      "last_updated": "2022-04-10T10:23:11+05:30",
+      "last_updated": "2022-04-10T14:23:13+05:30",
       "notes": "[2nd Jan '22]: Combined Recoveries and Deceased data added for 31Dec/ 1st Jan and 2nd Jan",
       "population": 37403000,
       "tested": {
@@ -7262,7 +7278,7 @@
       "confirmed": 435164,
       "deceased": 5315,
       "precautionary": 271921,
-      "recovered": 429833,
+      "recovered": 429834,
       "tested": 21639017,
       "vaccinated1": 22955908,
       "vaccinated2": 15603269
@@ -18879,10 +18895,10 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 1099,
+      "confirmed": 1101,
       "deceased": 30,
       "precautionary": 125939,
-      "recovered": 1286,
+      "recovered": 1289,
       "tested": 418345,
       "vaccinated1": 614026,
       "vaccinated2": 824194
@@ -18891,18 +18907,18 @@
       "confirmed": 11705
     },
     "delta7": {
-      "confirmed": 7189,
+      "confirmed": 7191,
       "deceased": 341,
       "other": 2,
       "precautionary": 896112,
-      "recovered": 8671,
+      "recovered": 8674,
       "tested": 3082857,
       "vaccinated1": 4353768,
       "vaccinated2": 5135515
     },
     "meta": {
       "date": "2022-04-09",
-      "last_updated": "2022-04-10T10:23:11+05:30",
+      "last_updated": "2022-04-10T14:23:13+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-04-09",
@@ -18913,11 +18929,11 @@
       }
     },
     "total": {
-      "confirmed": 43035191,
+      "confirmed": 43035193,
       "deceased": 521716,
       "other": 13740,
       "precautionary": 24314729,
-      "recovered": 42490682,
+      "recovered": 42490685,
       "tested": 793847740,
       "vaccinated1": 993308899,
       "vaccinated2": 839448027
