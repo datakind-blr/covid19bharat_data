@@ -3614,7 +3614,8 @@
   "GA": {
     "delta": {
       "confirmed": 184,
-      "recovered": 149
+      "recovered": 149,
+      "tested": 1337
     },
     "delta21_14": {
       "confirmed": 547
@@ -3624,7 +3625,7 @@
       "deceased": 5,
       "precautionary": 3023,
       "recovered": 936,
-      "tested": 6959,
+      "tested": 8296,
       "vaccinated1": 451,
       "vaccinated2": 1074
     },
@@ -3681,11 +3682,11 @@
     },
     "meta": {
       "date": "2022-06-30",
-      "last_updated": "2022-06-30T17:46:14+05:30",
+      "last_updated": "2022-06-30T18:37:35+05:30",
       "population": 1540000,
       "tested": {
-        "date": "2022-06-29",
-        "source": "https://www.goa.gov.in/wp-content/uploads/2022/06/Media-Bulletin-29th-June-2022.pdf"
+        "date": "2022-06-30",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2022/06/Media-Bulletin-30th-June-2022.pdf"
       }
     },
     "total": {
@@ -3693,7 +3694,7 @@
       "deceased": 3838,
       "precautionary": 68297,
       "recovered": 243869,
-      "tested": 1979873,
+      "tested": 1981210,
       "vaccinated1": 1435197,
       "vaccinated2": 1284385
     }
@@ -9229,14 +9230,19 @@
     }
   },
   "MN": {
+    "delta": {
+      "confirmed": 4,
+      "recovered": 2,
+      "tested": 77
+    },
     "delta21_14": {
       "confirmed": 2
     },
     "delta7": {
-      "confirmed": 15,
+      "confirmed": 19,
       "precautionary": 4662,
-      "recovered": 4,
-      "tested": 314,
+      "recovered": 6,
+      "tested": 391,
       "vaccinated1": 3622,
       "vaccinated2": 4200
     },
@@ -9476,36 +9482,40 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 4,
+          "recovered": 2
+        },
         "delta21_14": {
           "confirmed": 2
         },
         "delta7": {
-          "confirmed": 15,
-          "recovered": 4
+          "confirmed": 19,
+          "recovered": 6
         },
         "total": {
-          "confirmed": 137266,
+          "confirmed": 137270,
           "deceased": 2120,
-          "recovered": 135128
+          "recovered": 135130
         }
       }
     },
     "meta": {
       "date": "2022-06-30",
-      "last_updated": "2022-06-30T10:14:05+05:30",
+      "last_updated": "2022-06-30T18:37:35+05:30",
       "notes": "[Dec 14]:824 out of 980 recovered cases are backdated.",
       "population": 3103000,
       "tested": {
-        "date": "2022-06-29",
-        "source": "https://twitter.com/health_manipur/status/1542153160910856205?s=20&t=Dq7239MHVQuDNZcValGEHQ"
+        "date": "2022-06-30",
+        "source": "https://twitter.com/health_manipur/status/1542482976570609664?s=20&t=4sx8CKNvC9SdCLqyRd_ZCA"
       }
     },
     "total": {
-      "confirmed": 137266,
+      "confirmed": 137270,
       "deceased": 2120,
       "precautionary": 110766,
-      "recovered": 135128,
-      "tested": 1614612,
+      "recovered": 135130,
+      "tested": 1614689,
       "vaccinated1": 1592477,
       "vaccinated2": 1257995
     }
@@ -15748,25 +15758,25 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 184,
-      "recovered": 149
+      "confirmed": 188,
+      "recovered": 151
     },
     "delta21_14": {
       "confirmed": 65199
     },
     "delta7": {
-      "confirmed": 86081,
+      "confirmed": 86085,
       "deceased": 151,
       "other": 359,
       "precautionary": 2576278,
-      "recovered": 70548,
+      "recovered": 70550,
       "tested": 2480453,
       "vaccinated1": 1062411,
       "vaccinated2": 4819648
     },
     "meta": {
       "date": "2022-06-30",
-      "last_updated": "2022-06-30T17:46:14+05:30",
+      "last_updated": "2022-06-30T18:37:35+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-06-29",
@@ -15774,11 +15784,11 @@
       }
     },
     "total": {
-      "confirmed": 43451228,
+      "confirmed": 43451232,
       "deceased": 523758,
       "other": 14208,
       "precautionary": 45717728,
-      "recovered": 42810899,
+      "recovered": 42810901,
       "tested": 862375489,
       "vaccinated1": 1014888372,
       "vaccinated2": 915585454
