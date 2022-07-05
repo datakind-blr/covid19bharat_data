@@ -1005,14 +1005,6 @@
           "vaccinated2": 30621
         }
       },
-      "Unknown": {
-        "delta7": {
-          "recovered": 1
-        },
-        "total": {
-          "recovered": 1
-        }
-      },
       "Upper Dibang Valley": {
         "delta7": {
           "precautionary": 14,
@@ -1111,6 +1103,7 @@
         "delta7": {
           "confirmed": 2,
           "precautionary": 313,
+          "recovered": 1,
           "vaccinated1": 543,
           "vaccinated2": 130
         },
@@ -1124,7 +1117,7 @@
           "confirmed": 2035,
           "deceased": 6,
           "precautionary": 2964,
-          "recovered": 2026,
+          "recovered": 2027,
           "tested": 13192,
           "vaccinated1": 40068,
           "vaccinated2": 34889
@@ -18580,7 +18573,11 @@
         }
       },
       "Gomati": {
+        "delta": {
+          "confirmed": 1
+        },
         "delta7": {
+          "confirmed": 1,
           "precautionary": 1119,
           "vaccinated1": 535,
           "vaccinated2": 688
@@ -18592,7 +18589,7 @@
           }
         },
         "total": {
-          "confirmed": 9383,
+          "confirmed": 9384,
           "deceased": 87,
           "other": 4,
           "precautionary": 18290,
@@ -18649,11 +18646,13 @@
       },
       "Sipahijala": {
         "delta": {
-          "precautionary": 2
+          "precautionary": 2,
+          "recovered": 1
         },
         "delta7": {
-          "confirmed": 1,
+          "confirmed": 3,
           "precautionary": 272,
+          "recovered": 1,
           "vaccinated1": 186,
           "vaccinated2": 503
         },
@@ -18664,11 +18663,11 @@
           }
         },
         "total": {
-          "confirmed": 7262,
+          "confirmed": 7264,
           "deceased": 87,
           "other": 2,
           "precautionary": 15592,
-          "recovered": 7172,
+          "recovered": 7173,
           "tested": 53067,
           "vaccinated1": 379159,
           "vaccinated2": 313317
@@ -18697,22 +18696,9 @@
           "vaccinated2": 297541
         }
       },
-      "Unknown": {
-        "delta": {
-          "confirmed": 1,
-          "recovered": 4
-        },
-        "delta7": {
-          "confirmed": 12,
-          "recovered": 5
-        },
-        "total": {
-          "confirmed": 12,
-          "recovered": 5
-        }
-      },
       "Unokoti": {
         "delta7": {
+          "confirmed": 2,
           "precautionary": 49,
           "recovered": 2,
           "vaccinated1": 551,
@@ -18725,7 +18711,7 @@
           }
         },
         "total": {
-          "confirmed": 10060,
+          "confirmed": 10062,
           "deceased": 74,
           "other": 4,
           "precautionary": 6177,
@@ -18736,13 +18722,16 @@
         }
       },
       "West Tripura": {
+        "delta": {
+          "recovered": 3
+        },
         "delta21_14": {
           "confirmed": 1
         },
         "delta7": {
-          "confirmed": 3,
+          "confirmed": 10,
           "precautionary": 643,
-          "recovered": 2,
+          "recovered": 6,
           "vaccinated1": 708,
           "vaccinated2": 7733
         },
@@ -18753,11 +18742,11 @@
           }
         },
         "total": {
-          "confirmed": 39945,
+          "confirmed": 39952,
           "deceased": 479,
           "other": 43,
           "precautionary": 47262,
-          "recovered": 39419,
+          "recovered": 39423,
           "tested": 202939,
           "vaccinated1": 770126,
           "vaccinated2": 656959
