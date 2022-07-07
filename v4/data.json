@@ -102,7 +102,8 @@
   },
   "AP": {
     "delta": {
-      "confirmed": 322
+      "confirmed": 322,
+      "recovered": 154
     },
     "delta21_14": {
       "confirmed": 370
@@ -110,7 +111,7 @@
     "delta7": {
       "confirmed": 1629,
       "precautionary": 147477,
-      "recovered": 644,
+      "recovered": 798,
       "vaccinated1": 1685,
       "vaccinated2": 4398
     },
@@ -327,19 +328,20 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 322
+          "confirmed": 322,
+          "recovered": 154
         },
         "delta21_14": {
           "confirmed": 370
         },
         "delta7": {
           "confirmed": 1629,
-          "recovered": 644
+          "recovered": 798
         },
         "total": {
           "confirmed": 3430,
           "deceased": 1,
-          "recovered": 1808
+          "recovered": 1962
         }
       },
       "Visakhapatnam": {
@@ -433,7 +435,7 @@
     },
     "meta": {
       "date": "2022-07-06",
-      "last_updated": "2022-07-07T09:04:17+05:30",
+      "last_updated": "2022-07-07T09:41:21+05:30",
       "population": 52221000,
       "tested": {
         "date": "2022-04-29",
@@ -444,7 +446,7 @@
       "confirmed": 2323008,
       "deceased": 14731,
       "precautionary": 4915936,
-      "recovered": 2306537,
+      "recovered": 2306691,
       "tested": 33535691,
       "vaccinated1": 44634554,
       "vaccinated2": 47507679
@@ -17189,13 +17191,17 @@
     }
   },
   "TR": {
+    "delta": {
+      "confirmed": 7,
+      "recovered": 2
+    },
     "delta21_14": {
       "confirmed": 4
     },
     "delta7": {
-      "confirmed": 30,
+      "confirmed": 37,
       "precautionary": 2871,
-      "recovered": 7,
+      "recovered": 9,
       "tested": 3130,
       "vaccinated1": 1848,
       "vaccinated2": 7905
@@ -17342,6 +17348,20 @@
           "vaccinated2": 297759
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": 7,
+          "recovered": 2
+        },
+        "delta7": {
+          "confirmed": 7,
+          "recovered": 2
+        },
+        "total": {
+          "confirmed": 7,
+          "recovered": 2
+        }
+      },
       "Unokoti": {
         "delta21_14": {
           "confirmed": 2
@@ -17400,7 +17420,7 @@
     },
     "meta": {
       "date": "2022-07-06",
-      "last_updated": "2022-07-06T12:43:20+05:30",
+      "last_updated": "2022-07-07T09:41:21+05:30",
       "notes": "[Aug 4]: Tripura bulletin for the previous day is released on the next day. We will add the cases for Tripura against the date of release, as that is the convention that we are following for other states.",
       "population": 3992000,
       "tested": {
@@ -17409,11 +17429,11 @@
       }
     },
     "total": {
-      "confirmed": 100928,
+      "confirmed": 100935,
       "deceased": 920,
       "other": 65,
       "precautionary": 151716,
-      "recovered": 99913,
+      "recovered": 99915,
       "tested": 2491730,
       "vaccinated1": 2892840,
       "vaccinated2": 2462023
@@ -17421,27 +17441,27 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 18492,
+      "confirmed": 18499,
       "deceased": 32,
       "other": 3,
-      "recovered": 15550
+      "recovered": 15706
     },
     "delta21_14": {
       "confirmed": 87699
     },
     "delta7": {
-      "confirmed": 114118,
+      "confirmed": 114125,
       "deceased": 190,
       "other": 11,
       "precautionary": 1860539,
-      "recovered": 100041,
+      "recovered": 100197,
       "tested": 2530195,
       "vaccinated1": 781809,
       "vaccinated2": 3252861
     },
     "meta": {
       "date": "2022-07-06",
-      "last_updated": "2022-07-07T09:04:17+05:30",
+      "last_updated": "2022-07-07T09:41:21+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-07-05",
@@ -17449,11 +17469,11 @@
       }
     },
     "total": {
-      "confirmed": 43569206,
+      "confirmed": 43569213,
       "deceased": 523963,
       "other": 14219,
       "precautionary": 47578267,
-      "recovered": 42914196,
+      "recovered": 42914352,
       "tested": 864905684,
       "vaccinated1": 1015670181,
       "vaccinated2": 918838315
