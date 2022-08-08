@@ -1179,7 +1179,10 @@
   },
   "AS": {
     "delta": {
+      "confirmed": 30,
       "precautionary": 4259,
+      "recovered": 459,
+      "tested": 602,
       "vaccinated1": 364,
       "vaccinated2": 888
     },
@@ -1187,11 +1190,11 @@
       "confirmed": 4718
     },
     "delta7": {
-      "confirmed": 2505,
+      "confirmed": 2535,
       "deceased": 5,
       "precautionary": 326045,
-      "recovered": 3471,
-      "tested": 43261,
+      "recovered": 3930,
+      "tested": 43863,
       "vaccinated1": 31389,
       "vaccinated2": 78526
     },
@@ -1820,19 +1823,23 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 30,
+          "recovered": 459
+        },
         "delta21_14": {
           "confirmed": 4718
         },
         "delta7": {
-          "confirmed": 2505,
+          "confirmed": 2535,
           "deceased": 5,
-          "recovered": 3471
+          "recovered": 3930
         },
         "total": {
-          "confirmed": 741511,
+          "confirmed": 741541,
           "deceased": 6675,
           "other": 1347,
-          "recovered": 729054
+          "recovered": 729513
         }
       },
       "West Karbi Anglong": {
@@ -1858,24 +1865,24 @@
     },
     "meta": {
       "date": "2022-08-07",
-      "last_updated": "2022-08-08T10:32:36+05:30",
+      "last_updated": "2022-08-08T11:09:36+05:30",
       "notes": "[Jan 1]: 1347 cases i.e Covid +'tive patients dead for other reasons have been deducted fom active count.",
       "population": 34293000,
       "tested": {
-        "date": "2022-08-06",
-        "source": "https://twitter.com/nhm_assam/status/1555968612858576896"
+        "date": "2022-08-07",
+        "source": "https://twitter.com/nhm_assam/status/1556499798437822464"
       },
       "vaccinated": {
         "date": "2022-08-07"
       }
     },
     "total": {
-      "confirmed": 741511,
+      "confirmed": 741541,
       "deceased": 6675,
       "other": 1347,
       "precautionary": 2520510,
-      "recovered": 729054,
-      "tested": 28581842,
+      "recovered": 729513,
+      "tested": 28582444,
       "vaccinated1": 24657475,
       "vaccinated2": 21820743
     }
@@ -4372,17 +4379,20 @@
   "DN": {
     "delta": {
       "confirmed": 3,
-      "recovered": 3
+      "precautionary": 9,
+      "recovered": 3,
+      "vaccinated1": 3,
+      "vaccinated2": 2
     },
     "delta21_14": {
       "confirmed": 9
     },
     "delta7": {
       "confirmed": 26,
-      "precautionary": 23114,
+      "precautionary": 23123,
       "recovered": 11,
-      "vaccinated1": 516,
-      "vaccinated2": 1135
+      "vaccinated1": 519,
+      "vaccinated2": 1137
     },
     "districts": {
       "Dadra and Nagar Haveli": {
@@ -4476,22 +4486,25 @@
     },
     "meta": {
       "date": "2022-08-07",
-      "last_updated": "2022-08-07T22:10:17+05:30",
+      "last_updated": "2022-08-08T11:09:36+05:30",
       "population": 959000,
       "tested": {
         "date": "2020-10-20",
         "source": "https://dddcovid19.in/uploads/report/BulletinDNHDD20102020.pdf"
+      },
+      "vaccinated": {
+        "date": "2022-08-07"
       }
     },
     "total": {
       "confirmed": 11556,
       "deceased": 4,
       "other": 32,
-      "precautionary": 111522,
+      "precautionary": 111531,
       "recovered": 11495,
       "tested": 72410,
-      "vaccinated1": 779758,
-      "vaccinated2": 628902
+      "vaccinated1": 779761,
+      "vaccinated2": 628904
     }
   },
   "GA": {
@@ -19858,43 +19871,49 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 15193,
+      "confirmed": 15223,
       "deceased": 26,
       "other": 7,
-      "recovered": 14092,
-      "tested": 263419
+      "precautionary": 2813645,
+      "recovered": 14551,
+      "tested": 263419,
+      "vaccinated1": 146160,
+      "vaccinated2": 515525
     },
     "delta21_14": {
       "confirmed": 137769
     },
     "delta7": {
-      "confirmed": 124811,
+      "confirmed": 124841,
       "deceased": 331,
       "other": 75,
-      "precautionary": 15334780,
-      "recovered": 135175,
+      "precautionary": 18148425,
+      "recovered": 135634,
       "tested": 2706653,
-      "vaccinated1": 904760,
-      "vaccinated2": 2536195
+      "vaccinated1": 1050920,
+      "vaccinated2": 3051720
     },
     "meta": {
       "date": "2022-08-07",
-      "last_updated": "2022-08-08T10:47:52+05:30",
+      "last_updated": "2022-08-08T11:09:36+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-08-07",
         "source": "https://twitter.com/ICMRDELHI/status/1556483099474534400?s=20&t=b_C099Fm1flHAv2fygkIhw"
+      },
+      "vaccinated": {
+        "date": "2022-08-07"
       }
     },
     "total": {
-      "confirmed": 44161600,
+      "confirmed": 44161630,
       "deceased": 528535,
       "other": 14475,
-      "precautionary": 105989993,
-      "recovered": 43494649,
+      "precautionary": 108803638,
+      "recovered": 43495108,
       "tested": 878188162,
-      "vaccinated1": 1020666904,
-      "vaccinated2": 935522514
+      "vaccinated1": 1020813064,
+      "vaccinated2": 936038039
     }
   },
   "UP": {
