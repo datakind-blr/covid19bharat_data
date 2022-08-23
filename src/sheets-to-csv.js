@@ -57,6 +57,10 @@ const PUBLISHED_SHEET_ID_41 = "2PACX-1vRTeOY2cQtr_PDYsDgrFCb2qk7zRQeOdOQ2haQF5d5
 const PUBLISHED_SHEET_ID_42 = "2PACX-1vTpmtqBFUiN8sqfY8n0FDW52y2hrY1hoovj3xAd9NpU3LS3xssSwodXGvH7ul7u2ZhZWYwnJqIIXTT9";
 const PUBLISHED_SHEET_ID_43 = "2PACX-1vSMyH4gOtJYBtNFrdfc_4-nCV5cCxmlHJyPdOZ5W9V_0-KA4JDdFcWKMTk8YTgMAn7rvDQ60n4BpKV9";
 
+// Vaccination Sheets
+const PUBLISHED_VACC_02 = '2PACX-1vS-QdrrnxLA1N3WYmRrDc0S6zSWQ78r7aNJKGMEs-cpsuMfOyrWHFEZtu1dy0e3CS6_LrXeYJfC0sJh';
+
+
 const SHEETS_V1 = [
   ["raw_data1", "0"],
   ["death_and_recovered1", "200733542"],
@@ -140,6 +144,17 @@ const SHEETS_V43 = [
   //["vaccine_doses_statewise_v2", "1097927328"],
 ];
 
+
+// VACCINATION SHEETS
+const VACC_02 = [
+  // ["raw_data40", "0"],
+  ["tested_numbers_icmr_data", "2143634168"],
+  ["vaccine_doses_statewise_v2", "1097927328"],
+  ["cowin_vaccine_data_statewise", "1770661428"],
+  ["cowin_vaccine_data_districtwise_v2", "2073490247"]
+];
+
+
 async function sheetsToCSV(sheets, pubId) {
   for (var element of sheets) {
     console.log("Reading: " + element[0]);
@@ -212,4 +227,7 @@ async function sheetsToCSV(sheets, pubId) {
   await sheetsToCSV(SHEETS_V41, PUBLISHED_SHEET_ID_41);
   await sheetsToCSV(SHEETS_V42, PUBLISHED_SHEET_ID_42);
   await sheetsToCSV(SHEETS_V43, PUBLISHED_SHEET_ID_43);
+  
+  // VACCINATION SHEETS
+  await sheetsToCSV(VACC_02, PUBLISHED_VACC_02);
 })();
