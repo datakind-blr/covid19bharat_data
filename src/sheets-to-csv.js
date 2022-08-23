@@ -146,12 +146,12 @@ const SHEETS_V43 = [
 
 
 // VACCINATION SHEETS
-const VACC_02 = [
-  // ["raw_data40", "0"],
-  ["tested_numbers_icmr_data", "2143634168"],
-  ["vaccine_doses_statewise_v2", "1097927328"],
-  ["cowin_vaccine_data_statewise", "1770661428"],
-  ["cowin_vaccine_data_districtwise_v2", "2073490247"]
+const VACC_02 = [ 
+  // ["raw_data40", "0"], 
+  ["tested_numbers_icmr_data_02", "2143634168"], 
+  ["vaccine_doses_statewise_02", "1097927328"], 
+  ["cowin_vaccine_data_statewise_02", "1770661428"], 
+  ["cowin_vaccine_data_districtwise_02", "2073490247"] 
 ];
 
 
