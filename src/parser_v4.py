@@ -49,11 +49,14 @@ DISTRICT_DATA_GOSPEL = CSV_DIR / "districts_26apr_gospel.csv"
 GOSPEL_DATE = "2020-04-26"
 # India testing data
 ICMR_TEST_DATA = CSV_DIR / "tested_numbers_icmr_data.csv"
+ICMR_TEST_DATA_02 = CSV_DIR / "tested_numbers_icmr_data_02.csv"
 STATE_TEST_DATA = CSV_DIR / "statewise_tested_numbers_data.csv"
 DISTRICT_TEST_DATA = CSV_DIR / "district_testing.csv"
 STATE_VACCINATION_DATA = CSV_DIR / "vaccine_doses_statewise_v2.csv"
+STATE_VACCINATION_DATA_02 = CSV_DIR / "vaccine_doses_statewise_02.csv"
 DISTRICT_VACCINATION_DATA = CSV_DIR / "cowin_vaccine_data_districtwise.csv"
 DISTRICT_VACCINATION_DATA_V2 = CSV_DIR / "cowin_vaccine_data_districtwise_v2.csv"
+DISTRICT_VACCINATION_DATA_02 = CSV_DIR / "cowin_vaccine_data_districtwise_02.csv"
 # Old data.json
 DATA_OLD = ROOT_DIR / "tmp" / "data-old.min.json"
 print(DATA_OLD)
@@ -1269,6 +1272,10 @@ if __name__ == "__main__":
         logging.info(f"File: {ICMR_TEST_DATA.name}")
         reader = csv.DictReader(f)
         parse_icmr(reader)
+      with open(ICMR_TEST_DATA_02) as f:
+        logging.info(f"File: {ICMR_TEST_DATA_02.name}")
+        reader = csv.DictReader(f)
+        parse_icmr(reader)
       logging.info("Done!")
     except Exception as e:
       logging.error(f"Error in Parsing ICMR test data for India - {e}")
@@ -1303,6 +1310,10 @@ if __name__ == "__main__":
         logging.info(f"File: {STATE_VACCINATION_DATA.name}")
         reader = csv.DictReader(f)
         parse_state_vaccination(reader)
+      with open(STATE_VACCINATION_DATA_02) as f:
+        logging.info(f"File: {STATE_VACCINATION_DATA_02.name}")
+        reader = csv.DictReader(f)
+        parse_state_vaccination(reader)
       logging.info("Done!")
     except Exception as e:
       logging.error(f"Error in Parsing vaccination data for states - {e}")
@@ -1316,6 +1327,10 @@ if __name__ == "__main__":
         parse_district_vaccination(reader)
       with open(DISTRICT_VACCINATION_DATA_V2) as f:
         logging.info(f"File: {DISTRICT_VACCINATION_DATA_V2.name}")
+        reader = csv.reader(f)
+        parse_district_vaccination(reader)
+      with open(DISTRICT_VACCINATION_DATA_02) as f:
+        logging.info(f"File: {DISTRICT_VACCINATION_DATA_02.name}")
         reader = csv.reader(f)
         parse_district_vaccination(reader)
       logging.info("Done!")
