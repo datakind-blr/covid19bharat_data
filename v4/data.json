@@ -4,7 +4,7 @@
       "confirmed": 7,
       "precautionary": 5005,
       "recovered": 8,
-      "tested": 42764,
+      "tested": 230,
       "vaccinated1": 64,
       "vaccinated2": 166
     },
@@ -15,7 +15,7 @@
       "confirmed": 53,
       "precautionary": 39167,
       "recovered": 34,
-      "tested": 3869,
+      "tested": 1335,
       "vaccinated1": 475,
       "vaccinated2": 1040
     },
@@ -86,7 +86,7 @@
     },
     "meta": {
       "date": "2022-08-24",
-      "last_updated": "2022-08-25T09:15:48+05:30",
+      "last_updated": "2022-08-25T10:03:29+05:30",
       "population": 397000,
       "tested": {
         "date": "2022-08-24",
@@ -101,14 +101,16 @@
       "deceased": 129,
       "precautionary": 216657,
       "recovered": 10413,
-      "tested": 772701,
+      "tested": 770167,
       "vaccinated1": 346429,
       "vaccinated2": 350644
     }
   },
   "AP": {
     "delta": {
+      "confirmed": 136,
       "precautionary": 160073,
+      "recovered": 210,
       "vaccinated1": 432,
       "vaccinated2": 552
     },
@@ -116,9 +118,9 @@
       "confirmed": 1363
     },
     "delta7": {
-      "confirmed": 883,
+      "confirmed": 1019,
       "precautionary": 1265043,
-      "recovered": 942,
+      "recovered": 1152,
       "vaccinated1": 4977,
       "vaccinated2": 3198
     },
@@ -334,17 +336,21 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 136,
+          "recovered": 210
+        },
         "delta21_14": {
           "confirmed": 1363
         },
         "delta7": {
-          "confirmed": 883,
-          "recovered": 942
+          "confirmed": 1019,
+          "recovered": 1152
         },
         "total": {
-          "confirmed": 16552,
+          "confirmed": 16688,
           "deceased": 3,
-          "recovered": 15629
+          "recovered": 15839
         }
       },
       "Visakhapatnam": {
@@ -438,7 +444,7 @@
     },
     "meta": {
       "date": "2022-08-24",
-      "last_updated": "2022-08-25T09:15:48+05:30",
+      "last_updated": "2022-08-25T10:03:29+05:30",
       "population": 52221000,
       "tested": {
         "date": "2022-04-29",
@@ -449,10 +455,10 @@
       }
     },
     "total": {
-      "confirmed": 2336130,
+      "confirmed": 2336266,
       "deceased": 14733,
       "precautionary": 12459764,
-      "recovered": 2320358,
+      "recovered": 2320568,
       "tested": 33535691,
       "vaccinated1": 44677379,
       "vaccinated2": 47540683
@@ -460,7 +466,9 @@
   },
   "AR": {
     "delta": {
+      "confirmed": 14,
       "precautionary": 1290,
+      "recovered": 25,
       "vaccinated1": 413,
       "vaccinated2": 582
     },
@@ -468,9 +476,9 @@
       "confirmed": 268
     },
     "delta7": {
-      "confirmed": 105,
+      "confirmed": 119,
       "precautionary": 6761,
-      "recovered": 140,
+      "recovered": 165,
       "vaccinated1": 1641,
       "vaccinated2": 3589
     },
@@ -917,16 +925,20 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 14,
+          "recovered": 25
+        },
         "delta21_14": {
           "confirmed": 268
         },
         "delta7": {
-          "confirmed": 105,
-          "recovered": 140
+          "confirmed": 119,
+          "recovered": 165
         },
         "total": {
-          "confirmed": 987,
-          "recovered": 1354
+          "confirmed": 1001,
+          "recovered": 1379
         }
       },
       "Upper Dibang Valley": {
@@ -1037,7 +1049,7 @@
     },
     "meta": {
       "date": "2022-08-24",
-      "last_updated": "2022-08-25T09:15:48+05:30",
+      "last_updated": "2022-08-25T10:03:29+05:30",
       "notes": "[26 JUl 22]: Bulletin recevid today after 14th July22. Hence high case data\n[July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district.",
       "population": 1504000,
       "tested": {
@@ -1049,10 +1061,10 @@
       }
     },
     "total": {
-      "confirmed": 66585,
+      "confirmed": 66599,
       "deceased": 296,
       "precautionary": 85265,
-      "recovered": 66182,
+      "recovered": 66207,
       "tested": 1269967,
       "vaccinated1": 954257,
       "vaccinated2": 805936
@@ -2812,7 +2824,11 @@
   },
   "CH": {
     "delta": {
+      "confirmed": 41,
+      "deceased": 1,
       "precautionary": 731,
+      "recovered": 66,
+      "tested": 1468,
       "vaccinated1": 73,
       "vaccinated2": 196
     },
@@ -2820,18 +2836,22 @@
       "confirmed": 752
     },
     "delta7": {
-      "confirmed": 343,
-      "deceased": 1,
+      "confirmed": 384,
+      "deceased": 2,
       "precautionary": 4012,
-      "recovered": 452,
-      "tested": 7101,
+      "recovered": 518,
+      "tested": 8569,
       "vaccinated1": 914,
       "vaccinated2": 2163
     },
     "districts": {
       "Chandigarh": {
         "delta": {
+          "confirmed": 41,
+          "deceased": 1,
           "precautionary": 731,
+          "recovered": 66,
+          "tested": 1468,
           "vaccinated1": 73,
           "vaccinated2": 196
         },
@@ -2839,30 +2859,30 @@
           "confirmed": 752
         },
         "delta7": {
-          "confirmed": 343,
-          "deceased": 1,
+          "confirmed": 384,
+          "deceased": 2,
           "precautionary": 4012,
-          "recovered": 452,
-          "tested": 7101,
+          "recovered": 518,
+          "tested": 8569,
           "vaccinated1": 914,
           "vaccinated2": 2163
         },
         "meta": {
           "population": 1055450,
           "tested": {
-            "date": "2022-08-23",
-            "source": "http://chdpr.gov.in/cadmin/uploads/downloads/Media_Bulletin_on_23-08-2022.docx"
+            "date": "2022-08-24",
+            "source": "http://chdcovid19.in/chdcovidbed19/uploads/media_bulletin_files/2022-08-24.pdf"
           },
           "vaccinated": {
             "date": "2022-08-24"
           }
         },
         "total": {
-          "confirmed": 98485,
-          "deceased": 1178,
+          "confirmed": 98526,
+          "deceased": 1179,
           "precautionary": 93852,
-          "recovered": 96897,
-          "tested": 1284458,
+          "recovered": 96963,
+          "tested": 1285926,
           "vaccinated1": 1183621,
           "vaccinated2": 981018
         }
@@ -2870,22 +2890,22 @@
     },
     "meta": {
       "date": "2022-08-24",
-      "last_updated": "2022-08-25T09:15:48+05:30",
+      "last_updated": "2022-08-25T10:03:29+05:30",
       "population": 1179000,
       "tested": {
-        "date": "2022-08-23",
-        "source": "http://chdpr.gov.in/cadmin/uploads/downloads/Media_Bulletin_on_23-08-2022.docx"
+        "date": "2022-08-24",
+        "source": "http://chdcovid19.in/chdcovidbed19/uploads/media_bulletin_files/2022-08-24.pdf"
       },
       "vaccinated": {
         "date": "2022-08-24"
       }
     },
     "total": {
-      "confirmed": 98485,
-      "deceased": 1178,
+      "confirmed": 98526,
+      "deceased": 1179,
       "precautionary": 93852,
-      "recovered": 96897,
-      "tested": 1284458,
+      "recovered": 96963,
+      "tested": 1285926,
       "vaccinated1": 1183621,
       "vaccinated2": 981018
     }
@@ -6333,7 +6353,9 @@
   },
   "JH": {
     "delta": {
+      "confirmed": 36,
       "precautionary": 17878,
+      "recovered": 50,
       "vaccinated1": 4608,
       "vaccinated2": 9712
     },
@@ -6341,9 +6363,9 @@
       "confirmed": 751
     },
     "delta7": {
-      "confirmed": 263,
+      "confirmed": 299,
       "precautionary": 91913,
-      "recovered": 325,
+      "recovered": 375,
       "tested": 38218,
       "vaccinated1": 21328,
       "vaccinated2": 49746
@@ -6905,6 +6927,20 @@
           "vaccinated2": 455168
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": 36,
+          "recovered": 50
+        },
+        "delta7": {
+          "confirmed": 36,
+          "recovered": 50
+        },
+        "total": {
+          "confirmed": 36,
+          "recovered": 50
+        }
+      },
       "West Singhbhum": {
         "delta21_14": {
           "confirmed": 7
@@ -6930,7 +6966,7 @@
     },
     "meta": {
       "date": "2022-08-24",
-      "last_updated": "2022-08-25T09:15:48+05:30",
+      "last_updated": "2022-08-25T10:03:29+05:30",
       "notes": "[13th Jun 22]: JH bulletin combined from 9th Jun to 13th June\n[1st Jun 22]: JH bulletin combined from 25th May to 1st June\n[2nd Jan '22]: Combined Recoveries and Deceased data added for 31Dec/ 1st Jan and 2nd Jan",
       "population": 37403000,
       "tested": {
@@ -6942,10 +6978,10 @@
       }
     },
     "total": {
-      "confirmed": 441763,
+      "confirmed": 441799,
       "deceased": 5330,
       "precautionary": 1141631,
-      "recovered": 436082,
+      "recovered": 436132,
       "tested": 22538324,
       "vaccinated1": 23761746,
       "vaccinated2": 17215422
@@ -8526,11 +8562,11 @@
       "confirmed": 7907
     },
     "delta7": {
-      "confirmed": 5069,
-      "deceased": 35,
+      "confirmed": 6223,
+      "deceased": 40,
       "other": 2,
       "precautionary": 58760,
-      "recovered": 5080,
+      "recovered": 5866,
       "tested": 58552,
       "vaccinated1": 4286,
       "vaccinated2": 12286
@@ -8820,16 +8856,16 @@
           "confirmed": 7907
         },
         "delta7": {
-          "confirmed": 5069,
-          "deceased": 35,
+          "confirmed": 6223,
+          "deceased": 40,
           "other": 2,
-          "recovered": 5080
+          "recovered": 5866
         },
         "total": {
-          "confirmed": 120706,
-          "deceased": 2364,
+          "confirmed": 121860,
+          "deceased": 2369,
           "other": 355,
-          "recovered": 128305
+          "recovered": 129091
         }
       },
       "Wayanad": {
@@ -8858,7 +8894,7 @@
     },
     "meta": {
       "date": "2022-08-24",
-      "last_updated": "2022-08-25T09:15:48+05:30",
+      "last_updated": "2022-08-25T10:03:29+05:30",
       "notes": "[11Apr'22]: State Govt stopped sharing bulletin effecitve 11th April'22",
       "population": 35125000,
       "tested": {
@@ -8870,11 +8906,11 @@
       }
     },
     "total": {
-      "confirmed": 6746217,
-      "deceased": 70730,
+      "confirmed": 6747371,
+      "deceased": 70735,
       "other": 884,
       "precautionary": 2885773,
-      "recovered": 6667620,
+      "recovered": 6668406,
       "tested": 48928761,
       "vaccinated1": 29116419,
       "vaccinated2": 25160906
@@ -8882,7 +8918,9 @@
   },
   "LA": {
     "delta": {
+      "confirmed": 4,
       "precautionary": 881,
+      "recovered": 11,
       "vaccinated1": 19,
       "vaccinated2": 63
     },
@@ -8890,9 +8928,9 @@
       "confirmed": 112
     },
     "delta7": {
-      "confirmed": 48,
+      "confirmed": 52,
       "precautionary": 4676,
-      "recovered": 59,
+      "recovered": 70,
       "tested": 3205,
       "vaccinated1": 86,
       "vaccinated2": 238
@@ -8951,11 +8989,25 @@
           "vaccinated1": 134889,
           "vaccinated2": 113746
         }
+      },
+      "Unknown": {
+        "delta": {
+          "confirmed": 4,
+          "recovered": 11
+        },
+        "delta7": {
+          "confirmed": 4,
+          "recovered": 11
+        },
+        "total": {
+          "confirmed": 4,
+          "recovered": 11
+        }
       }
     },
     "meta": {
       "date": "2022-08-24",
-      "last_updated": "2022-08-25T09:15:48+05:30",
+      "last_updated": "2022-08-25T10:03:29+05:30",
       "population": 293000,
       "tested": {
         "date": "2022-08-23",
@@ -8966,10 +9018,10 @@
       }
     },
     "total": {
-      "confirmed": 29161,
+      "confirmed": 29165,
       "deceased": 229,
       "precautionary": 104265,
-      "recovered": 28873,
+      "recovered": 28884,
       "tested": 712470,
       "vaccinated1": 237873,
       "vaccinated2": 202286
@@ -17771,6 +17823,7 @@
   },
   "TR": {
     "delta": {
+      "confirmed": 11,
       "precautionary": 1749,
       "vaccinated1": 262,
       "vaccinated2": 440
@@ -17779,7 +17832,7 @@
       "confirmed": 443
     },
     "delta7": {
-      "confirmed": 56,
+      "confirmed": 67,
       "precautionary": 18187,
       "recovered": 129,
       "tested": 5606,
@@ -17955,6 +18008,17 @@
           "vaccinated2": 301124
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": 11
+        },
+        "delta7": {
+          "confirmed": 11
+        },
+        "total": {
+          "confirmed": 11
+        }
+      },
       "Unokoti": {
         "delta21_14": {
           "confirmed": 66
@@ -18014,7 +18078,7 @@
     },
     "meta": {
       "date": "2022-08-24",
-      "last_updated": "2022-08-25T09:15:48+05:30",
+      "last_updated": "2022-08-25T10:03:29+05:30",
       "notes": "[14 Aug 22]: Tripura bulletin updated after 7 days. Hence high case data\n[17 JUl 22]: Tripura bulletin released after 3 days. Hence high case data\n[14 JUl 22]: Tripura bulletin released after 3 days. Hence high case data\n[11 JUl 22]: Tripura bulletin released after 6 days. Hence high case data",
       "population": 3992000,
       "tested": {
@@ -18026,7 +18090,7 @@
       }
     },
     "total": {
-      "confirmed": 107689,
+      "confirmed": 107700,
       "deceased": 935,
       "other": 66,
       "precautionary": 289624,
@@ -18038,11 +18102,11 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 8632,
-      "deceased": 29,
+      "confirmed": 9412,
+      "deceased": 33,
       "other": 2,
       "precautionary": 1951355,
-      "recovered": 11186,
+      "recovered": 12479,
       "tested": 392837,
       "vaccinated1": 100869,
       "vaccinated2": 298441
@@ -18051,18 +18115,18 @@
       "confirmed": 112917
     },
     "delta7": {
-      "confirmed": 76907,
-      "deceased": 270,
+      "confirmed": 78841,
+      "deceased": 279,
       "other": 53,
       "precautionary": 15815689,
-      "recovered": 85658,
+      "recovered": 87737,
       "tested": 2498162,
       "vaccinated1": 690280,
       "vaccinated2": 2148656
     },
     "meta": {
       "date": "2022-08-24",
-      "last_updated": "2022-08-25T09:15:48+05:30",
+      "last_updated": "2022-08-25T10:03:29+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-08-24",
@@ -18073,11 +18137,11 @@
       }
     },
     "total": {
-      "confirmed": 44376551,
-      "deceased": 528801,
+      "confirmed": 44378485,
+      "deceased": 528810,
       "other": 14641,
       "precautionary": 145047760,
-      "recovered": 43756236,
+      "recovered": 43758315,
       "tested": 883916723,
       "vaccinated1": 1022367022,
       "vaccinated2": 940819565
@@ -18085,15 +18149,18 @@
   },
   "UP": {
     "delta": {
+      "confirmed": 538,
+      "deceased": 3,
       "precautionary": 332397,
+      "recovered": 931,
       "vaccinated1": 10800,
       "vaccinated2": 30957
     },
     "delta7": {
-      "confirmed": 4025,
-      "deceased": 8,
+      "confirmed": 4563,
+      "deceased": 11,
       "precautionary": 5256103,
-      "recovered": 4406,
+      "recovered": 5337,
       "vaccinated1": 109049,
       "vaccinated2": 370256
     },
@@ -19705,15 +19772,20 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 538,
+          "deceased": 3,
+          "recovered": 931
+        },
         "delta7": {
-          "confirmed": 4025,
-          "deceased": 8,
-          "recovered": 4406
+          "confirmed": 4563,
+          "deceased": 11,
+          "recovered": 5337
         },
         "total": {
-          "confirmed": 5151,
-          "deceased": 10,
-          "recovered": 6325
+          "confirmed": 5689,
+          "deceased": 13,
+          "recovered": 7256
         }
       },
       "Unnao": {
@@ -19763,7 +19835,7 @@
     },
     "meta": {
       "date": "2022-08-24",
-      "last_updated": "2022-08-25T09:15:48+05:30",
+      "last_updated": "2022-08-25T10:03:29+05:30",
       "notes": "[11Aug'22]: 4 to 11 Aug combined numbers based on Bulletin released on 12 Aug.\n[29Jul'22]: 25 to 29 Jul combined numbers based on Bulletin released on 30 Jul.\n[22Jul'22]: 20, 21 & 22 Jul combined numbers based on Bulletin released on 23 Jul.\n[14Jul'22]: 13th&14th Jul combined numbers based on Bulletin released on 15thJul.\n[3Jun'22]: 2nd & 3rd Jun Combined numbers based on Bulletin released on June 4th.\n[31May'22]: 29th, 30th and 31st May Combined numbers based on Bulletin released on June 1st.\n[25Mar'22]:  24th&25th Bulletin based on 26th Bulletin released after reconciliation.\n[Jan 1]:As no bulletin was provided for 31'st Dec'20,its count has been combined with 1st Jan'21\n[Jan 9]:Due to reconcillation there are 1286 cases.",
       "population": 224979000,
       "tested": {
@@ -19775,10 +19847,10 @@
       }
     },
     "total": {
-      "confirmed": 2119804,
-      "deceased": 23597,
+      "confirmed": 2120342,
+      "deceased": 23600,
       "precautionary": 21376533,
-      "recovered": 2091744,
+      "recovered": 2092675,
       "tested": 118136416,
       "vaccinated1": 176556256,
       "vaccinated2": 167198821
