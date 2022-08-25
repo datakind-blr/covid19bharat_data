@@ -220,11 +220,11 @@ async function sheetsToCSV(sheets, pubId) {
   // await sheetsToCSV(SHEETS_V34, PUBLISHED_SHEET_ID_34);
   // await sheetsToCSV(SHEETS_V35, PUBLISHED_SHEET_ID_35);
   // await sheetsToCSV(SHEETS_V36, PUBLISHED_SHEET_ID_36);
-  await sheetsToCSV(SHEETS_V37, PUBLISHED_SHEET_ID_37);
-  await sheetsToCSV(SHEETS_V38, PUBLISHED_SHEET_ID_38);
-  await sheetsToCSV(SHEETS_V39, PUBLISHED_SHEET_ID_39);
-  await sheetsToCSV(SHEETS_V40, PUBLISHED_SHEET_ID_40);
-  await sheetsToCSV(SHEETS_V41, PUBLISHED_SHEET_ID_41);
+  // await sheetsToCSV(SHEETS_V37, PUBLISHED_SHEET_ID_37);
+  // await sheetsToCSV(SHEETS_V38, PUBLISHED_SHEET_ID_38);
+  // await sheetsToCSV(SHEETS_V39, PUBLISHED_SHEET_ID_39);
+  await sheetsToCSV(SHEETS_V40, PUBLISHED_SHEET_ID_40);    // vaccination sheet
+  // await sheetsToCSV(SHEETS_V41, PUBLISHED_SHEET_ID_41);
   await sheetsToCSV(SHEETS_V42, PUBLISHED_SHEET_ID_42);
   await sheetsToCSV(SHEETS_V43, PUBLISHED_SHEET_ID_43);
   
