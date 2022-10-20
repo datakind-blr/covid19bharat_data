@@ -1188,6 +1188,7 @@
   "AS": {
     "delta": {
       "confirmed": 13,
+      "other": -13,
       "precautionary": 1398,
       "tested": 1422,
       "vaccinated1": 312,
@@ -1197,9 +1198,10 @@
       "confirmed": 100
     },
     "delta7": {
-      "confirmed": 117,
+      "confirmed": 119,
+      "other": -13,
       "precautionary": 19513,
-      "recovered": 100,
+      "recovered": 125,
       "tested": 6253,
       "vaccinated1": 10489,
       "vaccinated2": 21256
@@ -1817,20 +1819,22 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 13
+          "confirmed": 13,
+          "other": -13
         },
         "delta21_14": {
           "confirmed": 100
         },
         "delta7": {
-          "confirmed": 117,
-          "recovered": 100
+          "confirmed": 119,
+          "other": -13,
+          "recovered": 125
         },
         "total": {
-          "confirmed": 745931,
+          "confirmed": 745933,
           "deceased": 6688,
-          "other": 1347,
-          "recovered": 735176
+          "other": 1334,
+          "recovered": 735201
         }
       },
       "West Karbi Anglong": {
@@ -1865,11 +1869,11 @@
       }
     },
     "total": {
-      "confirmed": 745931,
+      "confirmed": 745933,
       "deceased": 6688,
-      "other": 1347,
+      "other": 1334,
       "precautionary": 3264695,
-      "recovered": 735176,
+      "recovered": 735201,
       "tested": 28743026,
       "vaccinated1": 24794142,
       "vaccinated2": 22060227
@@ -18959,6 +18963,7 @@
     "delta": {
       "confirmed": 2180,
       "deceased": 17,
+      "other": -13,
       "precautionary": 279060,
       "recovered": 2498,
       "tested": 260806,
@@ -18969,11 +18974,11 @@
       "confirmed": 22331
     },
     "delta7": {
-      "confirmed": 15609,
+      "confirmed": 15611,
       "deceased": 94,
-      "other": 3,
+      "other": -10,
       "precautionary": 2491902,
-      "recovered": 15865,
+      "recovered": 15890,
       "tested": 1568122,
       "vaccinated1": 155086,
       "vaccinated2": 526965
@@ -18989,11 +18994,11 @@
       }
     },
     "total": {
-      "confirmed": 44634855,
+      "confirmed": 44634857,
       "deceased": 530226,
-      "other": 14740,
+      "other": 14727,
       "precautionary": 219257441,
-      "recovered": 44067594,
+      "recovered": 44067619,
       "tested": 899187693,
       "vaccinated1": 1025131515,
       "vaccinated2": 949754569
