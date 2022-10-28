@@ -1,8 +1,8 @@
 State,Confirmed,Recovered,Deaths,Active,,Last_Updated_Time,Migrated_Other,State_code,Delta_Confirmed,Delta_Recovered,Delta_Deaths,State_Notes
-Total,44648515,44087226,530280,16265,,13/08/2021 23:27:22,14744,TT,1628,2611,3,
+Total,44649082,44088196,530289,15853,,13/08/2021 23:27:22,14744,TT,1885,3108,3,
 Andaman and Nicobar Islands,10731,10600,129,2,,13/08/2021 23:27:22,0,AN,1,0,0,
-Andhra Pradesh,2338846,2323985,14733,128,,13/08/2021 23:27:22,0,AP,0,0,0,
-Arunachal Pradesh,66875,66575,296,4,,13/08/2021 23:27:22,0,AR,0,0,0,"[26 JUl 22]: Bulletin recevid today after 14th July22. Hence high case data
+Andhra Pradesh,2338874,2324008,14733,133,,13/08/2021 23:27:22,0,AP,28,23,0,
+Arunachal Pradesh,66875,66576,296,3,,13/08/2021 23:27:22,0,AR,0,1,0,"[26 JUl 22]: Bulletin recevid today after 14th July22. Hence high case data
 [July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district."
 Assam,746020,735372,6688,2613,,13/08/2021 23:27:22,1347,AS,0,0,0,[Jan 1]: 1347 cases i.e Covid +'tive patients dead for other reasons have been deducted fom active count.
 Bihar,851147,838712,12302,132,,13/08/2021 23:27:22,1,BR,7,24,0,[June 9] : 3951 deceased cases have been reported in the bulletin after reconciliation of records by the authorities
@@ -15,12 +15,12 @@ Gujarat,1276632,1265122,11038,472,,13/08/2021 23:27:22,0,GJ,17,62,0,
 Haryana,1055991,1045098,10710,183,,13/08/2021 23:27:22,0,HR,50,56,0,
 Himachal Pradesh,312438,308204,4190,23,,13/08/2021 23:27:22,21,HP,6,8,0,
 Jammu and Kashmir,479280,474468,4785,27,,13/08/2021 23:27:22,0,JK,7,4,0,
-Jharkhand,442532,437140,5331,61,,13/08/2021 23:27:22,0,JH,0,0,0,"[13th Jun 22]: JH bulletin combined from 9th Jun to 13th June
+Jharkhand,442533,437147,5331,55,,13/08/2021 23:27:22,0,JH,1,7,0,"[13th Jun 22]: JH bulletin combined from 9th Jun to 13th June
 [1st Jun 22]: JH bulletin combined from 25th May to 1st June
 [2nd Jan '22]: Combined Recoveries and Deceased data added for 31Dec/ 1st Jan and 2nd Jan"
 Karnataka,4068388,4026177,40254,1915,,13/08/2021 23:27:22,42,KA,195,233,0,
-Kerala,6820596,6745609,71373,2729,,13/08/2021 23:27:22,885,KL,0,0,0,[11Apr'22]: State Govt stopped sharing bulletin effecitve 11th April'22
-Ladakh,29387,29146,231,10,,13/08/2021 23:27:22,0,LA,0,0,0,
+Kerala,6820906,6746082,71382,2557,,13/08/2021 23:27:22,885,KL,0,0,0,[11Apr'22]: State Govt stopped sharing bulletin effecitve 11th April'22
+Ladakh,29388,29148,231,9,,13/08/2021 23:27:22,0,LA,1,2,0,
 Lakshadweep,11415,11319,52,0,,13/08/2021 23:27:22,44,LD,0,0,0,
 Madhya Pradesh,1054709,1043860,10775,74,,13/08/2021 23:27:22,0,MP,4,23,0,"[13 Jan'22]: MP data Reconciled with latest bulletin format
 [14 Oct'20]: 4469 confirmed cases and 4469 recoveries added in MP bulletin as reconciliation with private labs and hospitals
@@ -36,7 +36,7 @@ Maharashtra,8130866,7980696,148382,1788,,13/08/2021 23:27:22,0,MH,972,1677,3,"[2
 [Sep 9 2021]: 15066 positive cases and 15793 discharged cases have been reduced from state total based on reconciliation (as mentioned in the bulletin)"
 Manipur,139870,137700,2149,21,,13/08/2021 23:27:22,0,MN,0,0,0,[Dec 14]:824 out of 980 recovered cases are backdated.
 Meghalaya,96757,95121,1624,12,,13/08/2021 23:27:22,0,ML,3,4,0,
-Mizoram,238770,238007,724,39,,13/08/2021 23:27:22,0,MZ,0,0,0,
+Mizoram,238778,238013,724,41,,13/08/2021 23:27:22,0,MZ,8,6,0,
 Nagaland,35974,33675,782,2,,13/08/2021 23:27:22,1515,NL,2,0,0,
 Odisha,1336000,1326469,9256,275,,13/08/2021 23:27:22,0,OR,41,59,0,[July 12th] :20 non-covid deaths reported in state dashboard are included in the deceased count
 Puducherry,175308,173198,1974,136,,13/08/2021 23:27:22,0,PY,35,31,0,[7Jun'22]: 6th & 7th Jun Combined numbers based on Bulletin released on June 8th.
@@ -45,17 +45,17 @@ Punjab,785118,764513,20512,93,,13/08/2021 23:27:22,0,PB,18,35,0,"[19Jul22] : 256
 Rajasthan,1314212,1304248,9644,320,,13/08/2021 23:27:22,0,RJ,22,22,0,
 Sikkim,44282,42987,498,13,,13/08/2021 23:27:22,784,SK,4,4,0,
 State Unassigned,0,0,0,0,,13/08/2021 23:27:22,0,UN,0,0,0,MoHFW website reports that these are the 'cases that are being reassigned to states'. 
-Tamil Nadu,3591226,3550645,38048,2533,,13/08/2021 23:27:22,0,TN,0,0,0,"[June 29 2021]: TN has introduced a new district ""Mayiladuthurai"" in the bulletin and has assigned cases from Nagapattinam to the new district.
+Tamil Nadu,3591405,3551029,38048,2328,,13/08/2021 23:27:22,0,TN,179,384,0,"[June 29 2021]: TN has introduced a new district ""Mayiladuthurai"" in the bulletin and has assigned cases from Nagapattinam to the new district.
 [July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.
 2 deaths cross notified to other states from Chennai and Coimbatore.
 1 patient died after turning negative for infection in Chengalpattu.
 These cases have been added to TN deceased tally"
 Telangana,839917,835301,4111,505,,13/08/2021 23:27:22,0,TG,81,83,0,"[July 27] : Telangana bulletin for the previous day is released on the next day. We will add the cases for Telangana against the date of release, as that is the convention that we are following for other states."
-Tripura,107993,106949,937,41,,13/08/2021 23:27:22,66,TR,0,0,0,"[14 Aug 22]: Tripura bulletin updated after 7 days. Hence high case data
+Tripura,108000,106958,937,39,,13/08/2021 23:27:22,66,TR,7,9,0,"[14 Aug 22]: Tripura bulletin updated after 7 days. Hence high case data
 [17 JUl 22]: Tripura bulletin released after 3 days. Hence high case data
 [14 JUl 22]: Tripura bulletin released after 3 days. Hence high case data
 [11 JUl 22]: Tripura bulletin released after 6 days. Hence high case data"
-Uttar Pradesh,2127394,2103361,23627,406,,13/08/2021 23:27:22,0,UP,0,0,0,"[11Aug'22]: 4 to 11 Aug combined numbers based on Bulletin released on 12 Aug.
+Uttar Pradesh,2127427,2103426,23627,374,,13/08/2021 23:27:22,0,UP,33,65,0,"[11Aug'22]: 4 to 11 Aug combined numbers based on Bulletin released on 12 Aug.
 [29Jul'22]: 25 to 29 Jul combined numbers based on Bulletin released on 30 Jul.
 [22Jul'22]: 20, 21 & 22 Jul combined numbers based on Bulletin released on 23 Jul.
 [14Jul'22]: 13th&14th Jul combined numbers based on Bulletin released on 15thJul.
