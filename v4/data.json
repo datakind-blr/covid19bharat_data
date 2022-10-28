@@ -9141,6 +9141,7 @@
       "confirmed": 1,
       "precautionary": 136,
       "recovered": 2,
+      "tested": 103,
       "vaccinated2": 1
     },
     "delta21_14": {
@@ -9150,7 +9151,7 @@
       "confirmed": 9,
       "precautionary": 466,
       "recovered": 10,
-      "tested": 564,
+      "tested": 667,
       "vaccinated1": 6,
       "vaccinated2": 17
     },
@@ -9182,16 +9183,18 @@
       },
       "Leh": {
         "delta": {
+          "confirmed": 1,
           "precautionary": 114,
+          "recovered": 2,
           "vaccinated2": 1
         },
         "delta21_14": {
           "confirmed": 10
         },
         "delta7": {
-          "confirmed": 8,
+          "confirmed": 9,
           "precautionary": 288,
-          "recovered": 8,
+          "recovered": 10,
           "vaccinated1": 1,
           "vaccinated2": 11
         },
@@ -9202,40 +9205,32 @@
           }
         },
         "total": {
-          "confirmed": 24041,
+          "confirmed": 24042,
           "deceased": 171,
           "precautionary": 76616,
-          "recovered": 23857,
+          "recovered": 23859,
           "tested": 72597,
           "vaccinated1": 135010,
           "vaccinated2": 114128
         }
       },
       "Unknown": {
-        "delta": {
-          "confirmed": 1,
-          "recovered": 2
-        },
         "delta21_14": {
           "confirmed": 3
         },
-        "delta7": {
-          "confirmed": 1,
-          "recovered": 2
-        },
         "total": {
-          "confirmed": 9,
-          "recovered": 13
+          "confirmed": 8,
+          "recovered": 11
         }
       }
     },
     "meta": {
       "date": "2022-10-27",
-      "last_updated": "2022-10-28T10:02:51+05:30",
+      "last_updated": "2022-10-28T11:14:55+05:30",
       "population": 293000,
       "tested": {
-        "date": "2022-10-26",
-        "source": "https://covid.ladakh.gov.in/Upload/getfileN/7fd07a6b-4d82-4c38-8aad-8745bc57e540_Media%20Bulletin%2026.10.2022.pdf"
+        "date": "2022-10-27",
+        "source": "https://covid.ladakh.gov.in/Upload/getfileN/fde9c226-2a38-4c41-a27a-a2e4ac711971_Media%20Bulletin%2027.10.2022.pdf"
       },
       "vaccinated": {
         "date": "2022-10-27"
@@ -9246,7 +9241,7 @@
       "deceased": 231,
       "precautionary": 119457,
       "recovered": 29148,
-      "tested": 722147,
+      "tested": 722250,
       "vaccinated1": 238211,
       "vaccinated2": 203547
     }
@@ -10836,6 +10831,7 @@
   },
   "MN": {
     "delta": {
+      "confirmed": 1,
       "precautionary": 80,
       "vaccinated1": 18,
       "vaccinated2": 163
@@ -10844,7 +10840,7 @@
       "confirmed": 11
     },
     "delta7": {
-      "confirmed": 9,
+      "confirmed": 10,
       "precautionary": 1175,
       "recovered": 16,
       "tested": 469,
@@ -11115,15 +11111,18 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 1
+        },
         "delta21_14": {
           "confirmed": 11
         },
         "delta7": {
-          "confirmed": 9,
+          "confirmed": 10,
           "recovered": 16
         },
         "total": {
-          "confirmed": 139870,
+          "confirmed": 139871,
           "deceased": 2149,
           "recovered": 137700
         }
@@ -11131,7 +11130,7 @@
     },
     "meta": {
       "date": "2022-10-27",
-      "last_updated": "2022-10-28T10:02:51+05:30",
+      "last_updated": "2022-10-28T11:14:55+05:30",
       "notes": "[Dec 14]:824 out of 980 recovered cases are backdated.",
       "population": 3103000,
       "tested": {
@@ -11143,7 +11142,7 @@
       }
     },
     "total": {
-      "confirmed": 139870,
+      "confirmed": 139871,
       "deceased": 2149,
       "precautionary": 273417,
       "recovered": 137700,
@@ -18434,7 +18433,7 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 1885,
+      "confirmed": 1886,
       "deceased": 3,
       "precautionary": 118471,
       "recovered": 3108,
@@ -18446,7 +18445,7 @@
       "confirmed": 17396
     },
     "delta7": {
-      "confirmed": 9990,
+      "confirmed": 9991,
       "deceased": 44,
       "other": 2,
       "precautionary": 688310,
@@ -18457,7 +18456,7 @@
     },
     "meta": {
       "date": "2022-10-27",
-      "last_updated": "2022-10-28T10:02:51+05:30",
+      "last_updated": "2022-10-28T11:14:55+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-10-27",
@@ -18468,7 +18467,7 @@
       }
     },
     "total": {
-      "confirmed": 44649082,
+      "confirmed": 44649083,
       "deceased": 530289,
       "other": 14744,
       "precautionary": 220626691,
