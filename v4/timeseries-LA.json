@@ -21473,6 +21473,7 @@
           "confirmed": 1,
           "precautionary": 12,
           "recovered": 1,
+          "tested": 109,
           "vaccinated1": 1,
           "vaccinated2": 5
         },
@@ -21480,7 +21481,7 @@
           "confirmed": 9,
           "precautionary": 376,
           "recovered": 9,
-          "tested": 608,
+          "tested": 717,
           "vaccinated1": 7,
           "vaccinated2": 25
         },
@@ -21489,20 +21490,21 @@
           "deceased": 231,
           "precautionary": 119584,
           "recovered": 29149,
-          "tested": 722362,
+          "tested": 722471,
           "vaccinated1": 238213,
           "vaccinated2": 203562
         }
       },
       "2022-10-30": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "tested": 96
         },
         "delta7": {
           "confirmed": 10,
           "precautionary": 376,
           "recovered": 9,
-          "tested": 520,
+          "tested": 725,
           "vaccinated1": 7,
           "vaccinated2": 25
         },
@@ -21511,7 +21513,7 @@
           "deceased": 231,
           "precautionary": 119584,
           "recovered": 29149,
-          "tested": 722362,
+          "tested": 722567,
           "vaccinated1": 238213,
           "vaccinated2": 203562
         }
@@ -39718,6 +39720,26 @@
             },
             "total": {
               "confirmed": 5338,
+              "deceased": 60,
+              "precautionary": 42891,
+              "recovered": 5278,
+              "tested": 37471,
+              "vaccinated1": 103203,
+              "vaccinated2": 89432
+            }
+          },
+          "2022-10-30": {
+            "delta": {
+              "confirmed": 1
+            },
+            "delta7": {
+              "confirmed": 1,
+              "precautionary": 105,
+              "vaccinated1": 6,
+              "vaccinated2": 15
+            },
+            "total": {
+              "confirmed": 5339,
               "deceased": 60,
               "precautionary": 42891,
               "recovered": 5278,
@@ -59594,19 +59616,6 @@
             },
             "total": {
               "confirmed": 9,
-              "recovered": 12
-            }
-          },
-          "2022-10-30": {
-            "delta": {
-              "confirmed": 1
-            },
-            "delta7": {
-              "confirmed": 2,
-              "recovered": 1
-            },
-            "total": {
-              "confirmed": 10,
               "recovered": 12
             }
           }
