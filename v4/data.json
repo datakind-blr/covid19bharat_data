@@ -8940,16 +8940,18 @@
   },
   "ML": {
     "delta": {
+      "confirmed": 1,
+      "recovered": -3,
       "tested": 61
     },
     "delta21_14": {
       "confirmed": 14
     },
     "delta7": {
-      "confirmed": 13,
+      "confirmed": 14,
       "deceased": 1,
       "precautionary": 293,
-      "recovered": 26,
+      "recovered": 23,
       "tested": 358,
       "vaccinated1": 101,
       "vaccinated2": 223
@@ -9023,10 +9025,14 @@
         }
       },
       "North Garo Hills": {
+        "delta": {
+          "other": -1
+        },
         "delta21_14": {
           "confirmed": 1
         },
         "delta7": {
+          "other": -1,
           "vaccinated1": 3,
           "vaccinated2": 3
         },
@@ -9036,7 +9042,6 @@
         "total": {
           "confirmed": 1922,
           "deceased": 10,
-          "other": 1,
           "precautionary": 1789,
           "recovered": 1912,
           "vaccinated1": 83338,
@@ -9044,11 +9049,15 @@
         }
       },
       "Ribhoi": {
+        "delta": {
+          "other": 2
+        },
         "delta21_14": {
           "confirmed": 2
         },
         "delta7": {
           "confirmed": 1,
+          "other": 2,
           "precautionary": 2,
           "recovered": 1,
           "vaccinated2": 2
@@ -9059,6 +9068,7 @@
         "total": {
           "confirmed": 10617,
           "deceased": 102,
+          "other": 2,
           "precautionary": 4780,
           "recovered": 10512,
           "vaccinated1": 131215,
@@ -9066,12 +9076,19 @@
         }
       },
       "South Garo Hills": {
+        "delta": {
+          "other": -1
+        },
+        "delta7": {
+          "other": -1
+        },
         "meta": {
           "population": 142574
         },
         "total": {
           "confirmed": 1442,
           "deceased": 16,
+          "other": -1,
           "precautionary": 2322,
           "recovered": 1427,
           "vaccinated1": 57402,
@@ -9079,7 +9096,11 @@
         }
       },
       "South West Garo Hills": {
+        "delta": {
+          "other": 1
+        },
         "delta7": {
+          "other": 1,
           "vaccinated1": 8,
           "vaccinated2": 3
         },
@@ -9089,7 +9110,6 @@
         "total": {
           "confirmed": 2271,
           "deceased": 21,
-          "other": -1,
           "precautionary": 3943,
           "recovered": 2250,
           "vaccinated1": 104073,
@@ -9110,20 +9130,34 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 1,
+          "other": 2,
+          "recovered": -3
+        },
         "delta7": {
-          "deceased": 1
+          "confirmed": 1,
+          "deceased": 1,
+          "other": 2,
+          "recovered": -3
         },
         "total": {
+          "confirmed": 1,
           "deceased": 1,
-          "recovered": 1
+          "other": 2,
+          "recovered": -2
         }
       },
       "West Garo Hills": {
+        "delta": {
+          "other": -3
+        },
         "delta21_14": {
           "confirmed": 5
         },
         "delta7": {
           "confirmed": 7,
+          "other": -3,
           "precautionary": 24,
           "recovered": 21,
           "vaccinated1": 18,
@@ -9135,6 +9169,7 @@
         "total": {
           "confirmed": 11921,
           "deceased": 84,
+          "other": -3,
           "precautionary": 14761,
           "recovered": 11833,
           "vaccinated1": 271319,
@@ -9181,7 +9216,7 @@
     },
     "meta": {
       "date": "2022-10-31",
-      "last_updated": "2022-10-31T21:28:18+05:30",
+      "last_updated": "2022-10-31T21:46:50+05:30",
       "population": 3224000,
       "tested": {
         "date": "2022-10-31",
@@ -9189,10 +9224,10 @@
       }
     },
     "total": {
-      "confirmed": 96763,
+      "confirmed": 96764,
       "deceased": 1624,
       "precautionary": 84517,
-      "recovered": 95129,
+      "recovered": 95126,
       "tested": 1433942,
       "vaccinated1": 1445877,
       "vaccinated2": 1086065
@@ -15712,26 +15747,26 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 610,
+      "confirmed": 611,
       "deceased": 3,
-      "recovered": 793
+      "recovered": 790
     },
     "delta21_14": {
       "confirmed": 16064
     },
     "delta7": {
-      "confirmed": 9069,
+      "confirmed": 9070,
       "deceased": 46,
       "other": 5,
       "precautionary": 531374,
-      "recovered": 13726,
+      "recovered": 13723,
       "tested": 816585,
       "vaccinated1": 37674,
       "vaccinated2": 148236
     },
     "meta": {
       "date": "2022-10-31",
-      "last_updated": "2022-10-31T21:28:18+05:30",
+      "last_updated": "2022-10-31T21:46:50+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-10-30",
@@ -15739,11 +15774,11 @@
       }
     },
     "total": {
-      "confirmed": 44654205,
+      "confirmed": 44654206,
       "deceased": 530317,
       "other": 14747,
       "precautionary": 220877025,
-      "recovered": 44095001,
+      "recovered": 44094998,
       "tested": 900966082,
       "vaccinated1": 1025269233,
       "vaccinated2": 950236624
