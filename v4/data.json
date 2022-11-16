@@ -4777,7 +4777,6 @@
       "Sirmaur": {
         "delta7": {
           "precautionary": 43,
-          "recovered": 1,
           "vaccinated1": 23,
           "vaccinated2": 36
         },
@@ -4791,10 +4790,18 @@
           "confirmed": 21246,
           "deceased": 227,
           "precautionary": 137098,
-          "recovered": 21019,
+          "recovered": 21018,
           "tested": 42564,
           "vaccinated1": 504589,
           "vaccinated2": 478504
+        }
+      },
+      "Sirmour": {
+        "delta7": {
+          "recovered": 1
+        },
+        "total": {
+          "recovered": 1
         }
       },
       "Solan": {
@@ -8591,7 +8598,6 @@
       },
       "Ratnagiri": {
         "delta": {
-          "deceased": -1015,
           "recovered": 1
         },
         "delta21_14": {
@@ -8599,7 +8605,6 @@
         },
         "delta7": {
           "confirmed": 6,
-          "deceased": -1015,
           "precautionary": 265,
           "recovered": 8,
           "vaccinated1": 10,
@@ -8610,7 +8615,7 @@
         },
         "total": {
           "confirmed": 85752,
-          "deceased": 1542,
+          "deceased": 2557,
           "precautionary": 127138,
           "recovered": 83190,
           "vaccinated1": 1148048,
@@ -8676,14 +8681,10 @@
         }
       },
       "Sindhudurg": {
-        "delta": {
-          "deceased": 1015
-        },
         "delta21_14": {
           "confirmed": 2
         },
         "delta7": {
-          "deceased": 1015,
           "precautionary": 133,
           "vaccinated1": 7,
           "vaccinated2": 30
@@ -8693,7 +8694,7 @@
         },
         "total": {
           "confirmed": 58074,
-          "deceased": 2557,
+          "deceased": 1542,
           "precautionary": 43911,
           "recovered": 56532,
           "vaccinated1": 638042,
@@ -9129,7 +9130,8 @@
   },
   "MN": {
     "delta": {
-      "recovered": 1
+      "recovered": 1,
+      "tested": 62
     },
     "delta21_14": {
       "confirmed": 15
@@ -9138,7 +9140,7 @@
       "confirmed": 9,
       "precautionary": 1222,
       "recovered": 6,
-      "tested": 598,
+      "tested": 660,
       "vaccinated1": 219,
       "vaccinated2": 481
     },
@@ -9397,12 +9399,12 @@
     },
     "meta": {
       "date": "2022-11-15",
-      "last_updated": "2022-11-15T22:33:02+05:30",
+      "last_updated": "2022-11-16T09:38:43+05:30",
       "notes": "[Dec 14]:824 out of 980 recovered cases are backdated.",
       "population": 3103000,
       "tested": {
-        "date": "2022-11-14",
-        "source": "https://t.me/c19b_data_dump/3305"
+        "date": "2022-11-15",
+        "source": "https://twitter.com/HealthCgGov/status/1592544253569552385?t=A7RMmMOpb2OvLaJp8a5v9w&s=19"
       }
     },
     "total": {
@@ -9410,7 +9412,7 @@
       "deceased": 2149,
       "precautionary": 276718,
       "recovered": 137743,
-      "tested": 1661592,
+      "tested": 1661654,
       "vaccinated1": 1647975,
       "vaccinated2": 1335164
     }
