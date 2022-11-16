@@ -4705,6 +4705,7 @@
       "Sirmaur": {
         "delta7": {
           "precautionary": 69,
+          "recovered": 1,
           "vaccinated1": 25,
           "vaccinated2": 42
         },
@@ -4718,18 +4719,10 @@
           "confirmed": 21246,
           "deceased": 227,
           "precautionary": 137142,
-          "recovered": 21018,
+          "recovered": 21019,
           "tested": 42564,
           "vaccinated1": 504593,
           "vaccinated2": 478516
-        }
-      },
-      "Sirmour": {
-        "delta7": {
-          "recovered": 1
-        },
-        "total": {
-          "recovered": 1
         }
       },
       "Solan": {
@@ -8967,14 +8960,19 @@
     }
   },
   "MN": {
+    "delta": {
+      "confirmed": 1,
+      "recovered": 2,
+      "tested": 120
+    },
     "delta21_14": {
       "confirmed": 15
     },
     "delta7": {
-      "confirmed": 6,
+      "confirmed": 7,
       "precautionary": 1155,
-      "recovered": 5,
-      "tested": 552,
+      "recovered": 7,
+      "tested": 672,
       "vaccinated1": 243,
       "vaccinated2": 499
     },
@@ -9214,36 +9212,40 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 2
+        },
         "delta21_14": {
           "confirmed": 15
         },
         "delta7": {
-          "confirmed": 6,
-          "recovered": 5
+          "confirmed": 7,
+          "recovered": 7
         },
         "total": {
-          "confirmed": 139903,
+          "confirmed": 139904,
           "deceased": 2149,
-          "recovered": 137743
+          "recovered": 137745
         }
       }
     },
     "meta": {
       "date": "2022-11-16",
-      "last_updated": "2022-11-16T10:47:31+05:30",
+      "last_updated": "2022-11-16T22:47:40+05:30",
       "notes": "[Dec 14]:824 out of 980 recovered cases are backdated.",
       "population": 3103000,
       "tested": {
-        "date": "2022-11-15",
-        "source": "https://twitter.com/CBC_RO_Imphal/status/1592575874154778624?t=pkUrIwRv9zFg0WDDzBg0yA&s=19"
+        "date": "2022-11-16",
+        "source": "https://t.me/c19b_data_dump/3324"
       }
     },
     "total": {
-      "confirmed": 139903,
+      "confirmed": 139904,
       "deceased": 2149,
       "precautionary": 276905,
-      "recovered": 137743,
-      "tested": 1661654,
+      "recovered": 137745,
+      "tested": 1661774,
       "vaccinated1": 1648038,
       "vaccinated2": 1335295
     }
@@ -15095,25 +15097,25 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 137,
-      "recovered": 285
+      "confirmed": 138,
+      "recovered": 287
     },
     "delta21_14": {
       "confirmed": 10209
     },
     "delta7": {
-      "confirmed": 3867,
+      "confirmed": 3868,
       "deceased": 17,
       "other": 5,
       "precautionary": 404989,
-      "recovered": 8338,
+      "recovered": 8340,
       "tested": 822549,
       "vaccinated1": 35096,
       "vaccinated2": 143361
     },
     "meta": {
       "date": "2022-11-16",
-      "last_updated": "2022-11-16T22:31:32+05:30",
+      "last_updated": "2022-11-16T22:47:40+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-11-15",
@@ -15121,11 +15123,11 @@
       }
     },
     "total": {
-      "confirmed": 44668034,
+      "confirmed": 44668035,
       "deceased": 530411,
       "other": 14756,
       "precautionary": 222207597,
-      "recovered": 44116406,
+      "recovered": 44116408,
       "tested": 903208956,
       "vaccinated1": 1025380100,
       "vaccinated2": 950650952
