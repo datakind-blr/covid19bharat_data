@@ -10333,7 +10333,9 @@
   },
   "ML": {
     "delta": {
+      "confirmed": 2,
       "precautionary": 49,
+      "recovered": 1,
       "vaccinated1": 14,
       "vaccinated2": 31
     },
@@ -10341,9 +10343,9 @@
       "confirmed": 15
     },
     "delta7": {
-      "confirmed": 2,
+      "confirmed": 4,
       "precautionary": 492,
-      "recovered": 6,
+      "recovered": 7,
       "tested": 254,
       "vaccinated1": 68,
       "vaccinated2": 192
@@ -10506,18 +10508,22 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 1
+        },
         "delta21_14": {
           "confirmed": 2
         },
         "delta7": {
-          "confirmed": 2,
-          "recovered": 6
+          "confirmed": 4,
+          "recovered": 7
         },
         "total": {
-          "confirmed": 8,
+          "confirmed": 10,
           "deceased": 1,
           "other": 2,
-          "recovered": 13
+          "recovered": 14
         }
       },
       "West Garo Hills": {
@@ -10600,17 +10606,18 @@
     "meta": {
       "population": 3224000,
       "tested": {
-        "date": "2022-11-16"
+        "date": "2022-11-16",
+        "source": "http://meghalayaonline.gov.in/covid/login.htm"
       },
       "vaccinated": {
         "date": "2022-11-17"
       }
     },
     "total": {
-      "confirmed": 96771,
+      "confirmed": 96773,
       "deceased": 1624,
       "precautionary": 85970,
-      "recovered": 95146,
+      "recovered": 95147,
       "tested": 1434795,
       "vaccinated1": 1446105,
       "vaccinated2": 1086553
@@ -17838,10 +17845,10 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 492,
+      "confirmed": 494,
       "deceased": 3,
       "precautionary": 70763,
-      "recovered": 549,
+      "recovered": 550,
       "tested": 194240,
       "vaccinated1": 6747,
       "vaccinated2": 25818
@@ -17850,11 +17857,11 @@
       "confirmed": 9176
     },
     "delta7": {
-      "confirmed": 4205,
+      "confirmed": 4207,
       "deceased": 30,
       "other": 2,
       "precautionary": 463805,
-      "recovered": 8650,
+      "recovered": 8651,
       "tested": 998647,
       "vaccinated1": 40618,
       "vaccinated2": 164127
@@ -17870,11 +17877,11 @@
       }
     },
     "total": {
-      "confirmed": 44669185,
+      "confirmed": 44669187,
       "deceased": 530428,
       "other": 14756,
       "precautionary": 222362152,
-      "recovered": 44117919,
+      "recovered": 44117920,
       "tested": 903550540,
       "vaccinated1": 1025394771,
       "vaccinated2": 950704905
