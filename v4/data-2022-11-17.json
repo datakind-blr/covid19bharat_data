@@ -1157,7 +1157,9 @@
   },
   "AS": {
     "delta": {
+      "confirmed": 1,
       "precautionary": 1661,
+      "recovered": 6,
       "vaccinated1": 390,
       "vaccinated2": 1358
     },
@@ -1165,9 +1167,9 @@
       "confirmed": 42
     },
     "delta7": {
-      "confirmed": 8,
+      "confirmed": 9,
       "precautionary": 8466,
-      "recovered": 2527,
+      "recovered": 2533,
       "tested": 5809,
       "vaccinated1": 1980,
       "vaccinated2": 7856
@@ -1790,18 +1792,22 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 6
+        },
         "delta21_14": {
           "confirmed": 42
         },
         "delta7": {
-          "confirmed": 8,
-          "recovered": 2527
+          "confirmed": 9,
+          "recovered": 2533
         },
         "total": {
-          "confirmed": 746098,
+          "confirmed": 746099,
           "deceased": 6688,
           "other": 1347,
-          "recovered": 738053
+          "recovered": 738059
         }
       },
       "West Karbi Anglong": {
@@ -1836,11 +1842,11 @@
       }
     },
     "total": {
-      "confirmed": 746098,
+      "confirmed": 746099,
       "deceased": 6688,
       "other": 1347,
       "precautionary": 3311733,
-      "recovered": 738053,
+      "recovered": 738059,
       "tested": 28762758,
       "vaccinated1": 24807604,
       "vaccinated2": 22106727
@@ -8590,7 +8596,10 @@
   },
   "KL": {
     "delta": {
+      "confirmed": 160,
+      "deceased": 15,
       "precautionary": 648,
+      "recovered": 213,
       "vaccinated1": 77,
       "vaccinated2": 331
     },
@@ -8598,10 +8607,10 @@
       "confirmed": 1639
     },
     "delta7": {
-      "confirmed": 769,
-      "deceased": 13,
+      "confirmed": 929,
+      "deceased": 28,
       "precautionary": 3876,
-      "recovered": 1200,
+      "recovered": 1413,
       "vaccinated1": 532,
       "vaccinated2": 2130
     },
@@ -8951,19 +8960,24 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 160,
+          "deceased": 15,
+          "recovered": 213
+        },
         "delta21_14": {
           "confirmed": 1639
         },
         "delta7": {
-          "confirmed": 769,
-          "deceased": 13,
-          "recovered": 1200
+          "confirmed": 929,
+          "deceased": 28,
+          "recovered": 1413
         },
         "total": {
-          "confirmed": 199328,
-          "deceased": 3089,
+          "confirmed": 199488,
+          "deceased": 3104,
           "other": 356,
-          "recovered": 212068
+          "recovered": 212281
         }
       },
       "Wayanad": {
@@ -9006,11 +9020,11 @@
       }
     },
     "total": {
-      "confirmed": 6824839,
-      "deceased": 71455,
+      "confirmed": 6824999,
+      "deceased": 71470,
       "other": 885,
       "precautionary": 3051335,
-      "recovered": 6751383,
+      "recovered": 6751596,
       "tested": 49140038,
       "vaccinated1": 29144655,
       "vaccinated2": 25251611
@@ -17851,10 +17865,10 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 495,
-      "deceased": 3,
+      "confirmed": 656,
+      "deceased": 18,
       "precautionary": 70763,
-      "recovered": 551,
+      "recovered": 770,
       "tested": 194240,
       "vaccinated1": 6747,
       "vaccinated2": 25818
@@ -17863,11 +17877,11 @@
       "confirmed": 9176
     },
     "delta7": {
-      "confirmed": 4208,
-      "deceased": 30,
+      "confirmed": 4369,
+      "deceased": 45,
       "other": 2,
       "precautionary": 463805,
-      "recovered": 8652,
+      "recovered": 8871,
       "tested": 998647,
       "vaccinated1": 40618,
       "vaccinated2": 164127
@@ -17883,11 +17897,11 @@
       }
     },
     "total": {
-      "confirmed": 44669188,
-      "deceased": 530428,
+      "confirmed": 44669349,
+      "deceased": 530443,
       "other": 14756,
       "precautionary": 222362152,
-      "recovered": 44117921,
+      "recovered": 44118140,
       "tested": 903550540,
       "vaccinated1": 1025394771,
       "vaccinated2": 950704905
