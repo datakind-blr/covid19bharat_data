@@ -1547,7 +1547,8 @@
   "BR": {
     "delta": {
       "confirmed": 3,
-      "recovered": 5
+      "recovered": 5,
+      "tested": 67452
     },
     "delta21_14": {
       "confirmed": 60
@@ -1556,7 +1557,7 @@
       "confirmed": 19,
       "precautionary": 36081,
       "recovered": 52,
-      "tested": 361532,
+      "tested": 428984,
       "vaccinated1": 5427,
       "vaccinated2": 19910
     },
@@ -2499,12 +2500,12 @@
     },
     "meta": {
       "date": "2022-11-22",
-      "last_updated": "2022-11-22T22:48:47+05:30",
+      "last_updated": "2022-11-22T23:09:53+05:30",
       "notes": "[June 9] : 3951 deceased cases have been reported in the bulletin after reconciliation of records by the authorities",
       "population": 119520000,
       "tested": {
-        "date": "2022-11-21",
-        "source": "https://twitter.com/BiharHealthDept/status/1594730646697816064?t=L4ez6SbD38-pmMpzLSLZpA&s=19"
+        "date": "2022-11-22",
+        "source": "https://twitter.com/BiharHealthDept/status/1595068044866629634?t=A92S9V5Hy4BYBgNwRI68wg&s=19"
       }
     },
     "total": {
@@ -2513,7 +2514,7 @@
       "other": 1,
       "precautionary": 15782559,
       "recovered": 839010,
-      "tested": 92885494,
+      "tested": 92952946,
       "vaccinated1": 73441164,
       "vaccinated2": 67831549
     }
@@ -2583,7 +2584,8 @@
   "CT": {
     "delta": {
       "confirmed": 2,
-      "recovered": 6
+      "recovered": 6,
+      "tested": 2388
     },
     "delta21_14": {
       "confirmed": 95
@@ -2592,7 +2594,7 @@
       "confirmed": 34,
       "precautionary": 15828,
       "recovered": 39,
-      "tested": 10862,
+      "tested": 13250,
       "vaccinated1": 786,
       "vaccinated2": 5282
     },
@@ -3301,11 +3303,11 @@
     },
     "meta": {
       "date": "2022-11-22",
-      "last_updated": "2022-11-22T22:48:47+05:30",
+      "last_updated": "2022-11-22T23:09:53+05:30",
       "population": 28724000,
       "tested": {
-        "date": "2022-11-21",
-        "source": "https://twitter.com/HealthCgGov/status/1594719814291197953?t=uxHcyIC-EhF9H6IHIRKIJg&s=19"
+        "date": "2022-11-22",
+        "source": "https://twitter.com/HealthCgGov/status/1595080442566541315?t=gFM661F-3uHaXCaQ-AGZGg&s=19"
       }
     },
     "total": {
@@ -3313,7 +3315,7 @@
       "deceased": 14145,
       "precautionary": 7448535,
       "recovered": 1163539,
-      "tested": 18764407,
+      "tested": 18766795,
       "vaccinated1": 21261681,
       "vaccinated2": 20301743
     }
@@ -8961,14 +8963,18 @@
     }
   },
   "MN": {
+    "delta": {
+      "confirmed": 1,
+      "tested": 115
+    },
     "delta21_14": {
       "confirmed": 9
     },
     "delta7": {
-      "confirmed": 8,
+      "confirmed": 9,
       "precautionary": 973,
       "recovered": 9,
-      "tested": 446,
+      "tested": 561,
       "vaccinated1": 223,
       "vaccinated2": 649
     },
@@ -9209,15 +9215,18 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 1
+        },
         "delta21_14": {
           "confirmed": 9
         },
         "delta7": {
-          "confirmed": 8,
+          "confirmed": 9,
           "recovered": 9
         },
         "total": {
-          "confirmed": 139911,
+          "confirmed": 139912,
           "deceased": 2149,
           "recovered": 137752
         }
@@ -9225,20 +9234,20 @@
     },
     "meta": {
       "date": "2022-11-22",
-      "last_updated": "2022-11-22T15:27:08+05:30",
+      "last_updated": "2022-11-22T23:09:53+05:30",
       "notes": "[Dec 14]:824 out of 980 recovered cases are backdated.",
       "population": 3103000,
       "tested": {
-        "date": "2022-11-21",
-        "source": "https://t.me/c19b_data_dump/3390"
+        "date": "2022-11-22",
+        "source": "https://t.me/c19b_data_dump/3400"
       }
     },
     "total": {
-      "confirmed": 139911,
+      "confirmed": 139912,
       "deceased": 2149,
       "precautionary": 277878,
       "recovered": 137752,
-      "tested": 1662100,
+      "tested": 1662215,
       "vaccinated1": 1648261,
       "vaccinated2": 1335944
     }
@@ -13339,14 +13348,19 @@
     }
   },
   "TG": {
+    "delta": {
+      "confirmed": 14,
+      "recovered": 25,
+      "tested": 6154
+    },
     "delta21_14": {
       "confirmed": 394
     },
     "delta7": {
-      "confirmed": 102,
+      "confirmed": 116,
       "precautionary": 16404,
-      "recovered": 220,
-      "tested": 35633,
+      "recovered": 245,
+      "tested": 41787,
       "vaccinated1": 713,
       "vaccinated2": 1752
     },
@@ -13732,17 +13746,21 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 14,
+          "recovered": 25
+        },
         "delta21_14": {
           "confirmed": 394
         },
         "delta7": {
-          "confirmed": 102,
-          "recovered": 220
+          "confirmed": 116,
+          "recovered": 245
         },
         "total": {
-          "confirmed": 841016,
+          "confirmed": 841030,
           "deceased": 4111,
-          "recovered": 836778
+          "recovered": 836803
         }
       },
       "Vikarabad": {
@@ -13820,20 +13838,20 @@
     },
     "meta": {
       "date": "2022-11-22",
-      "last_updated": "2022-11-22T15:27:08+05:30",
+      "last_updated": "2022-11-22T23:09:53+05:30",
       "notes": "[July 27] : Telangana bulletin for the previous day is released on the next day. We will add the cases for Telangana against the date of release, as that is the convention that we are following for other states.",
       "population": 37220000,
       "tested": {
-        "date": "2022-11-21",
-        "source": "https://twitter.com/IPRTelangana/status/1594699298859814912?t=UE3cNy46w5Im8nzxoD2q1A&s=19"
+        "date": "2022-11-22",
+        "source": "https://twitter.com/IPRTelangana/status/1595073286471569408?t=Tt4icjueYelHV9hSdA0TsA&s=19"
       }
     },
     "total": {
-      "confirmed": 841016,
+      "confirmed": 841030,
       "deceased": 4111,
       "precautionary": 13173401,
-      "recovered": 836778,
-      "tested": 38063954,
+      "recovered": 836803,
+      "tested": 38070108,
       "vaccinated1": 32434688,
       "vaccinated2": 31521811
     }
@@ -15124,24 +15142,24 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 167,
-      "recovered": 278
+      "confirmed": 182,
+      "recovered": 303
     },
     "delta21_14": {
       "confirmed": 7058
     },
     "delta7": {
-      "confirmed": 3051,
+      "confirmed": 3066,
       "deceased": 48,
       "precautionary": 317306,
-      "recovered": 4343,
+      "recovered": 4368,
       "tested": 1057378,
       "vaccinated1": 37960,
       "vaccinated2": 119037
     },
     "meta": {
       "date": "2022-11-22",
-      "last_updated": "2022-11-22T22:48:47+05:30",
+      "last_updated": "2022-11-22T23:09:53+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-11-21",
@@ -15149,11 +15167,11 @@
       }
     },
     "total": {
-      "confirmed": 44671104,
+      "confirmed": 44671119,
       "deceased": 530468,
       "other": 14756,
       "precautionary": 222524903,
-      "recovered": 44120734,
+      "recovered": 44120759,
       "tested": 904266334,
       "vaccinated1": 1025418060,
       "vaccinated2": 950769989
