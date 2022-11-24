@@ -8489,12 +8489,16 @@
     }
   },
   "ML": {
+    "delta": {
+      "recovered": 2
+    },
     "delta21_14": {
       "confirmed": 4
     },
     "delta7": {
       "confirmed": 2,
       "precautionary": 424,
+      "recovered": 3,
       "tested": 257,
       "vaccinated1": 62,
       "vaccinated2": 90
@@ -8642,17 +8646,21 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 2
+        },
         "delta21_14": {
           "confirmed": 4
         },
         "delta7": {
-          "confirmed": 2
+          "confirmed": 2,
+          "recovered": 3
         },
         "total": {
           "confirmed": 12,
           "deceased": 1,
           "other": 2,
-          "recovered": 14
+          "recovered": 17
         }
       },
       "West Garo Hills": {
@@ -8712,7 +8720,7 @@
     },
     "meta": {
       "date": "2022-11-24",
-      "last_updated": "2022-11-24T12:46:24+05:30",
+      "last_updated": "2022-11-24T21:10:35+05:30",
       "population": 3224000,
       "tested": {
         "date": "2022-11-21",
@@ -8723,7 +8731,7 @@
       "confirmed": 96775,
       "deceased": 1624,
       "precautionary": 86394,
-      "recovered": 95147,
+      "recovered": 95150,
       "tested": 1435052,
       "vaccinated1": 1446167,
       "vaccinated2": 1086643
@@ -14816,25 +14824,25 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 86,
+      "confirmed": 91,
       "deceased": 1,
-      "recovered": 109
+      "recovered": 137
     },
     "delta21_14": {
       "confirmed": 6398
     },
     "delta7": {
-      "confirmed": 2442,
+      "confirmed": 2447,
       "deceased": 36,
       "precautionary": 273991,
-      "recovered": 3510,
+      "recovered": 3539,
       "tested": 1201069,
       "vaccinated1": 36994,
       "vaccinated2": 105635
     },
     "meta": {
       "date": "2022-11-24",
-      "last_updated": "2022-11-24T20:08:59+05:30",
+      "last_updated": "2022-11-24T21:10:35+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-11-23",
@@ -14842,11 +14850,11 @@
       }
     },
     "total": {
-      "confirmed": 44671791,
+      "confirmed": 44671796,
       "deceased": 530479,
       "other": 14756,
       "precautionary": 222636143,
-      "recovered": 44121650,
+      "recovered": 44121679,
       "tested": 904751609,
       "vaccinated1": 1025431765,
       "vaccinated2": 950810540
@@ -16868,13 +16876,17 @@
     }
   },
   "WB": {
+    "delta": {
+      "confirmed": 5,
+      "recovered": 26
+    },
     "delta21_14": {
       "confirmed": 154
     },
     "delta7": {
-      "confirmed": 49,
+      "confirmed": 54,
       "precautionary": 8476,
-      "recovered": 155,
+      "recovered": 181,
       "tested": 29182,
       "vaccinated1": 635,
       "vaccinated2": 2876
@@ -17283,17 +17295,21 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 5,
+          "recovered": 26
+        },
         "delta21_14": {
           "confirmed": 154
         },
         "delta7": {
-          "confirmed": 49,
-          "recovered": 155
+          "confirmed": 54,
+          "recovered": 181
         },
         "total": {
-          "confirmed": 102526,
+          "confirmed": 102531,
           "deceased": 351,
-          "recovered": 103643
+          "recovered": 103669
         }
       },
       "Uttar Dinajpur": {
@@ -17315,7 +17331,7 @@
     },
     "meta": {
       "date": "2022-11-24",
-      "last_updated": "2022-11-24T12:46:24+05:30",
+      "last_updated": "2022-11-24T21:10:35+05:30",
       "notes": "[8Mar'22]: WBHFW Stopped sharing the detailed bulletin",
       "population": 96906000,
       "tested": {
@@ -17324,10 +17340,10 @@
       }
     },
     "total": {
-      "confirmed": 2118438,
+      "confirmed": 2118443,
       "deceased": 21531,
       "precautionary": 15712208,
-      "recovered": 2096788,
+      "recovered": 2096814,
       "tested": 26798629,
       "vaccinated1": 73518651,
       "vaccinated2": 66683702
