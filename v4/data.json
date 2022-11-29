@@ -3252,7 +3252,6 @@
   "DN": {
     "delta7": {
       "precautionary": 55,
-      "recovered": 1,
       "vaccinated2": 3
     },
     "districts": {
@@ -3320,18 +3319,15 @@
         }
       },
       "Unknown": {
-        "delta7": {
-          "recovered": 1
-        },
         "total": {
           "confirmed": 4,
-          "recovered": 5
+          "recovered": 4
         }
       }
     },
     "meta": {
       "date": "2022-11-29",
-      "last_updated": "2022-11-29T09:28:54+05:30",
+      "last_updated": "2022-11-29T18:36:54+05:30",
       "population": 959000,
       "tested": {
         "date": "2020-10-20",
@@ -3343,21 +3339,26 @@
       "deceased": 4,
       "other": 32,
       "precautionary": 159266,
-      "recovered": 11556,
+      "recovered": 11555,
       "tested": 72410,
       "vaccinated1": 782229,
       "vaccinated2": 636782
     }
   },
   "GA": {
+    "delta": {
+      "confirmed": 2,
+      "recovered": 7,
+      "tested": 591
+    },
     "delta21_14": {
       "confirmed": 71
     },
     "delta7": {
-      "confirmed": 33,
+      "confirmed": 35,
       "precautionary": 46,
-      "recovered": 43,
-      "tested": 2449,
+      "recovered": 50,
+      "tested": 3040,
       "vaccinated1": 12,
       "vaccinated2": 31
     },
@@ -3393,36 +3394,40 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 7
+        },
         "delta21_14": {
           "confirmed": 71
         },
         "delta7": {
-          "confirmed": 33,
-          "recovered": 43
+          "confirmed": 35,
+          "recovered": 50
         },
         "total": {
-          "confirmed": 259022,
+          "confirmed": 259024,
           "deceased": 4013,
-          "recovered": 254969
+          "recovered": 254976
         }
       }
     },
     "meta": {
       "date": "2022-11-29",
-      "last_updated": "2022-11-28T17:51:03+05:30",
+      "last_updated": "2022-11-29T18:36:54+05:30",
       "notes": "[11Oct22]: 46 additional deaths from July 2020 to Jan 2022 are reported as backlog. [25Jul22] : 100 additional deceased between Jul20 to Jun22 has been reported late.",
       "population": 1540000,
       "tested": {
-        "date": "2022-11-28",
-        "source": "https://www.goa.gov.in/wp-content/uploads/2022/11/Media-Bulletin-28th-November-2022.pdf"
+        "date": "2022-11-29",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2022/11/Media-Bulletin-29th-November-final.pdf"
       }
     },
     "total": {
-      "confirmed": 259022,
+      "confirmed": 259024,
       "deceased": 4013,
       "precautionary": 137131,
-      "recovered": 254969,
-      "tested": 2110746,
+      "recovered": 254976,
+      "tested": 2111337,
       "vaccinated1": 1439791,
       "vaccinated2": 1295335
     }
@@ -14458,21 +14463,25 @@
     }
   },
   "TT": {
+    "delta": {
+      "confirmed": 2,
+      "recovered": 7
+    },
     "delta21_14": {
       "confirmed": 4894
     },
     "delta7": {
-      "confirmed": 1866,
+      "confirmed": 1868,
       "deceased": 16,
       "precautionary": 201023,
-      "recovered": 2926,
+      "recovered": 2932,
       "tested": 1347317,
       "vaccinated1": 22430,
       "vaccinated2": 80654
     },
     "meta": {
       "date": "2022-11-29",
-      "last_updated": "2022-11-29T14:29:06+05:30",
+      "last_updated": "2022-11-29T18:36:54+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2022-11-27",
@@ -14480,11 +14489,11 @@
       }
     },
     "total": {
-      "confirmed": 44673289,
+      "confirmed": 44673291,
       "deceased": 530492,
       "other": 14756,
       "precautionary": 222775394,
-      "recovered": 44124011,
+      "recovered": 44124017,
       "tested": 905868872,
       "vaccinated1": 1025448142,
       "vaccinated2": 950869011
