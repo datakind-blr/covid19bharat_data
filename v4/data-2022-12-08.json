@@ -9460,6 +9460,7 @@
   "ML": {
     "delta": {
       "precautionary": 50,
+      "recovered": 1,
       "vaccinated1": 3,
       "vaccinated2": 14
     },
@@ -9469,6 +9470,7 @@
     "delta7": {
       "confirmed": 2,
       "precautionary": 436,
+      "recovered": 1,
       "tested": 242,
       "vaccinated1": 52,
       "vaccinated2": 111
@@ -9602,17 +9604,21 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 1
+        },
         "delta21_14": {
           "confirmed": 2
         },
         "delta7": {
-          "confirmed": 2
+          "confirmed": 2,
+          "recovered": 1
         },
         "total": {
           "confirmed": 16,
           "deceased": 1,
           "other": 2,
-          "recovered": 19
+          "recovered": 20
         }
       },
       "West Garo Hills": {
@@ -9695,7 +9701,7 @@
       "confirmed": 96779,
       "deceased": 1624,
       "precautionary": 87125,
-      "recovered": 95152,
+      "recovered": 95153,
       "tested": 1435612,
       "vaccinated1": 1446298,
       "vaccinated2": 1086844
@@ -16241,7 +16247,7 @@
       "confirmed": 251,
       "deceased": 1,
       "precautionary": 29634,
-      "recovered": 283,
+      "recovered": 284,
       "tested": 141067,
       "vaccinated1": 4337,
       "vaccinated2": 15970
@@ -16253,7 +16259,7 @@
       "confirmed": 1529,
       "deceased": 26,
       "precautionary": 179177,
-      "recovered": 1957,
+      "recovered": 1958,
       "tested": 1142423,
       "vaccinated1": 25812,
       "vaccinated2": 85023
@@ -16273,7 +16279,7 @@
       "deceased": 530529,
       "other": 14756,
       "precautionary": 223104685,
-      "recovered": 44127223,
+      "recovered": 44127224,
       "tested": 908092886,
       "vaccinated1": 1025491444,
       "vaccinated2": 951022458
