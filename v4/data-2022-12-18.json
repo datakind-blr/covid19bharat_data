@@ -967,10 +967,12 @@
   },
   "AS": {
     "delta": {
+      "recovered": 1,
       "vaccinated1": 1
     },
     "delta7": {
       "precautionary": 394,
+      "recovered": 1,
       "vaccinated1": 592,
       "vaccinated2": 2774
     },
@@ -1401,11 +1403,17 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 1
+        },
+        "delta7": {
+          "recovered": 1
+        },
         "total": {
           "confirmed": 746100,
           "deceased": 6688,
           "other": 1347,
-          "recovered": 738064
+          "recovered": 738065
         }
       },
       "West Karbi Anglong": {
@@ -1438,7 +1446,7 @@
       "deceased": 6688,
       "other": 1347,
       "precautionary": 3341004,
-      "recovered": 738064,
+      "recovered": 738065,
       "tested": 28762758,
       "vaccinated1": 24810394,
       "vaccinated2": 22126591
@@ -14792,7 +14800,7 @@
       "confirmed": 138,
       "deceased": 2,
       "precautionary": 5104,
-      "recovered": 105,
+      "recovered": 106,
       "tested": 61701,
       "vaccinated1": 940,
       "vaccinated2": 1845
@@ -14804,7 +14812,7 @@
       "confirmed": 1128,
       "deceased": 18,
       "precautionary": 201142,
-      "recovered": 1434,
+      "recovered": 1435,
       "tested": 761919,
       "vaccinated1": 30181,
       "vaccinated2": 95884
@@ -14824,7 +14832,7 @@
       "deceased": 530551,
       "other": 14756,
       "precautionary": 223364409,
-      "recovered": 44129443,
+      "recovered": 44129444,
       "tested": 909178304,
       "vaccinated1": 1025530252,
       "vaccinated2": 951150017
