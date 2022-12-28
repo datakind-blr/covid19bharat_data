@@ -4239,13 +4239,17 @@
         }
       },
       "Sirmaur": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 1
+        },
         "delta21_14": {
           "confirmed": 2
         },
         "delta7": {
-          "confirmed": 1,
+          "confirmed": 2,
           "precautionary": 479,
-          "recovered": 1,
+          "recovered": 2,
           "vaccinated1": 24,
           "vaccinated2": 78
         },
@@ -4256,27 +4260,13 @@
           }
         },
         "total": {
-          "confirmed": 21252,
+          "confirmed": 21253,
           "deceased": 227,
           "precautionary": 140555,
-          "recovered": 21023,
+          "recovered": 21024,
           "tested": 42564,
           "vaccinated1": 504917,
           "vaccinated2": 479409
-        }
-      },
-      "Sirmour": {
-        "delta": {
-          "confirmed": 1,
-          "recovered": 1
-        },
-        "delta7": {
-          "confirmed": 1,
-          "recovered": 1
-        },
-        "total": {
-          "confirmed": 1,
-          "recovered": 1
         }
       },
       "Solan": {
@@ -4925,7 +4915,7 @@
     "delta7": {
       "confirmed": 3,
       "precautionary": 17138,
-      "tested": 8839,
+      "tested": 11402,
       "vaccinated1": 6084,
       "vaccinated2": 14941
     },
@@ -5174,6 +5164,7 @@
       },
       "Khunti": {
         "delta7": {
+          "confirmed": 1,
           "precautionary": 363,
           "vaccinated1": 13,
           "vaccinated2": 10
@@ -5185,7 +5176,7 @@
           }
         },
         "total": {
-          "confirmed": 9214,
+          "confirmed": 9215,
           "deceased": 99,
           "precautionary": 66886,
           "recovered": 9115,
@@ -5389,11 +5380,8 @@
         }
       },
       "Unknown": {
-        "delta7": {
-          "confirmed": 1
-        },
         "total": {
-          "confirmed": 2,
+          "confirmed": 1,
           "recovered": 6
         }
       },
@@ -5418,12 +5406,12 @@
     },
     "meta": {
       "date": "2022-12-28",
-      "last_updated": "2022-12-28T13:49:45+05:30",
+      "last_updated": "2022-12-28T22:29:32+05:30",
       "notes": "[13th Jun 22]: JH bulletin combined from 9th Jun to 13th June\n[1st Jun 22]: JH bulletin combined from 25th May to 1st June\n[2nd Jan '22]: Combined Recoveries and Deceased data added for 31Dec/ 1st Jan and 2nd Jan",
       "population": 37403000,
       "tested": {
-        "date": "2022-12-26",
-        "source": "http://jrhms.jharkhand.gov.in/sites/default/files/2022-12/26-12-2022%209PM.pdf"
+        "date": "2022-12-27",
+        "source": "http://jrhms.jharkhand.gov.in/sites/default/files/2022-12/27-12-2022%209PM.pdf"
       }
     },
     "total": {
@@ -5431,7 +5419,7 @@
       "deceased": 5331,
       "precautionary": 1968317,
       "recovered": 437236,
-      "tested": 22958836,
+      "tested": 22961399,
       "vaccinated1": 23951149,
       "vaccinated2": 17763394
     }
@@ -8420,13 +8408,16 @@
     }
   },
   "MP": {
+    "delta": {
+      "tested": 99
+    },
     "delta21_14": {
       "confirmed": 4
     },
     "delta7": {
       "precautionary": 9477,
       "recovered": 3,
-      "tested": 989,
+      "tested": 1088,
       "vaccinated1": 658,
       "vaccinated2": 1001
     },
@@ -9478,12 +9469,12 @@
     },
     "meta": {
       "date": "2022-12-28",
-      "last_updated": "2022-12-28T13:07:25+05:30",
+      "last_updated": "2022-12-28T22:29:32+05:30",
       "notes": "[13 Jan'22]: MP data Reconciled with latest bulletin format\n[14 Oct'20]: 4469 confirmed cases and 4469 recoveries added in MP bulletin as reconciliation with private labs and hospitals\n[12 July'21] :1478 deceased cases have been added after reconciliation of deceased cases records from Home Isolation(208), Private Hospitals(762) and other districts data (508)",
       "population": 82232000,
       "tested": {
-        "date": "2022-12-27",
-        "source": "https://twitter.com/healthminmp/status/1607765470681399299?s=20&t=4I3ZD7kHIXpbw0FENiHw9w"
+        "date": "2022-12-28",
+        "source": "https://twitter.com/healthminmp/status/1608115746852458500/photo/2"
       }
     },
     "total": {
@@ -9491,7 +9482,7 @@
       "deceased": 10776,
       "precautionary": 13640690,
       "recovered": 1044138,
-      "tested": 30255868,
+      "tested": 30255967,
       "vaccinated1": 60745202,
       "vaccinated2": 59203197
     }
