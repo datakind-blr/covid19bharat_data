@@ -916,7 +916,7 @@
   "AS": {
     "delta7": {
       "precautionary": 628,
-      "tested": 541,
+      "tested": 810,
       "vaccinated1": 199,
       "vaccinated2": 1054
     },
@@ -1353,11 +1353,11 @@
     },
     "meta": {
       "date": "2023-01-03",
-      "last_updated": "2023-01-03T09:26:34+05:30",
+      "last_updated": "2023-01-03T21:27:14+05:30",
       "notes": "[13/11/2022] as per MoHFW (Assam bulletin of 12/11/2022), 2464 active cases are deemed discharged. [Jan 1]: 1347 cases i.e Covid +'tive patients dead for other reasons have been deducted fom active count.",
       "population": 34293000,
       "tested": {
-        "date": "2023-01-01",
+        "date": "2023-01-02",
         "source": "https://twitter.com/nhm_assam/status/1610192171910713346?t=LOzxKhzAICpVlsaecJQX-Q&s=19"
       }
     },
@@ -1367,7 +1367,7 @@
       "other": 1347,
       "precautionary": 3342938,
       "recovered": 738065,
-      "tested": 28768928,
+      "tested": 28769197,
       "vaccinated1": 24811456,
       "vaccinated2": 22131688
     }
@@ -1377,9 +1377,9 @@
       "confirmed": 7
     },
     "delta7": {
-      "confirmed": 16,
+      "confirmed": 18,
       "precautionary": 5380,
-      "recovered": 13,
+      "recovered": 15,
       "tested": 257234,
       "vaccinated1": 6335,
       "vaccinated2": 3409
@@ -1614,7 +1614,7 @@
           "confirmed": 2
         },
         "delta7": {
-          "confirmed": 9,
+          "confirmed": 11,
           "precautionary": 26,
           "recovered": 10,
           "vaccinated1": 51,
@@ -1627,7 +1627,7 @@
           }
         },
         "total": {
-          "confirmed": 38022,
+          "confirmed": 38024,
           "deceased": 374,
           "precautionary": 676181,
           "recovered": 37637,
@@ -2173,6 +2173,14 @@
           "vaccinated2": 1539886
         }
       },
+      "Unknown": {
+        "delta7": {
+          "recovered": 2
+        },
+        "total": {
+          "recovered": 2
+        }
+      },
       "Vaishali": {
         "delta7": {
           "precautionary": 113,
@@ -2219,7 +2227,7 @@
     },
     "meta": {
       "date": "2023-01-03",
-      "last_updated": "2023-01-03T09:26:34+05:30",
+      "last_updated": "2023-01-03T21:27:14+05:30",
       "notes": "[June 9] : 3951 deceased cases have been reported in the bulletin after reconciliation of records by the authorities",
       "population": 119520000,
       "tested": {
@@ -2228,11 +2236,11 @@
       }
     },
     "total": {
-      "confirmed": 851395,
+      "confirmed": 851397,
       "deceased": 12302,
       "other": 1,
       "precautionary": 15855838,
-      "recovered": 839075,
+      "recovered": 839077,
       "tested": 94976814,
       "vaccinated1": 73469431,
       "vaccinated2": 67883503
@@ -3105,14 +3113,19 @@
     }
   },
   "GA": {
+    "delta": {
+      "confirmed": 1,
+      "recovered": 3,
+      "tested": 659
+    },
     "delta21_14": {
       "confirmed": 7
     },
     "delta7": {
-      "confirmed": 14,
+      "confirmed": 15,
       "precautionary": 316,
-      "recovered": 17,
-      "tested": 3093,
+      "recovered": 20,
+      "tested": 3752,
       "vaccinated1": 22,
       "vaccinated2": 19
     },
@@ -3148,36 +3161,40 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 3
+        },
         "delta21_14": {
           "confirmed": 7
         },
         "delta7": {
-          "confirmed": 14,
-          "recovered": 17
+          "confirmed": 15,
+          "recovered": 20
         },
         "total": {
-          "confirmed": 259084,
+          "confirmed": 259085,
           "deceased": 4013,
-          "recovered": 255055
+          "recovered": 255058
         }
       }
     },
     "meta": {
       "date": "2023-01-03",
-      "last_updated": "2023-01-03T09:26:34+05:30",
+      "last_updated": "2023-01-03T21:27:14+05:30",
       "notes": "[11Oct22]: 46 additional deaths from July 2020 to Jan 2022 are reported as backlog. [25Jul22] : 100 additional deceased between Jul20 to Jun22 has been reported late.",
       "population": 1540000,
       "tested": {
-        "date": "2023-01-02",
-        "source": "https://twitter.com/dip_goa/status/1609871419315478528?t=UuhXsHJXIaINvBORSjPPVA&s=19"
+        "date": "2023-01-03",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2023/01/Media-Bulletin-3rd-January-2022.pdf"
       }
     },
     "total": {
-      "confirmed": 259084,
+      "confirmed": 259085,
       "deceased": 4013,
       "precautionary": 137687,
-      "recovered": 255055,
-      "tested": 2126665,
+      "recovered": 255058,
+      "tested": 2127324,
       "vaccinated1": 1439845,
       "vaccinated2": 1295378
     }
@@ -13583,23 +13600,24 @@
   },
   "TT": {
     "delta": {
-      "recovered": 1
+      "confirmed": 1,
+      "recovered": 4
     },
     "delta21_14": {
       "confirmed": 1086
     },
     "delta7": {
-      "confirmed": 1307,
+      "confirmed": 1310,
       "deceased": 11,
       "precautionary": 286308,
-      "recovered": 2183,
+      "recovered": 2188,
       "tested": 1039794,
       "vaccinated1": 34902,
       "vaccinated2": 68214
     },
     "meta": {
       "date": "2023-01-03",
-      "last_updated": "2023-01-03T21:11:03+05:30",
+      "last_updated": "2023-01-03T21:27:14+05:30",
       "population": 1332900000,
       "tested": {
         "date": "2023-01-02",
@@ -13607,11 +13625,11 @@
       }
     },
     "total": {
-      "confirmed": 44680166,
+      "confirmed": 44680169,
       "deceased": 530583,
       "other": 14757,
       "precautionary": 224136765,
-      "recovered": 44133191,
+      "recovered": 44133196,
       "tested": 911167976,
       "vaccinated1": 1025620647,
       "vaccinated2": 951366230
