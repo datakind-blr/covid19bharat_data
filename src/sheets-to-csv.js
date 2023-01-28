@@ -167,6 +167,7 @@ async function sheetsToCSV(sheets, pubId) {
     console.log(tempUrl);
     var url = encodeURI(tempUrl);
     const settings = { method: "Get" };
+    console.log("Trying to fecth " + tempUrl);
     await fetch(url, settings)
       .then((res) => res.text())
       .then((csv) => {
@@ -178,7 +179,7 @@ async function sheetsToCSV(sheets, pubId) {
           fs.writeFileSync(latestDir + "/" + element[0] + ".csv", csv);
           console.log("Write completed: " + element[0]);
         }
-      });
+      }).catch(e => console.log('SOMETHING WENT WRONG error', e));
   }
 }
 
