@@ -180,6 +180,7 @@ async function sheetsToCSV(sheets, pubId) {
           console.log("Write completed: " + element[0]);
         }
       }).catch(e => console.log('SOMETHING WENT WRONG error', e));
+    console.log("Fetching: " + element)
   }
 }
 
