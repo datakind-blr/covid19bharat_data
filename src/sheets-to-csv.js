@@ -157,30 +157,34 @@ const VACC_02 = [
 
 async function sheetsToCSV(sheets, pubId) {
   for (var element of sheets) {
-    console.log("Reading: " + element[0]);
-    var tempUrl =
-      "https://docs.google.com/spreadsheets/d/e/" +
-      pubId +
-      "/pub?gid=" +
-      element[1] +
-      "&single=false&output=csv";
-    console.log(tempUrl);
-    var url = encodeURI(tempUrl);
-    const settings = { method: "Get" };
-    console.log("Trying to fecth " + tempUrl);
-    await fetch(url, settings)
-      .then((res) => res.text())
-      .then((csv) => {
-        if (csv.includes("</html>")) {
-          console.error("probably not csv!");
-          process.exit(1);
-        } else {
-          // fs.writeFileSync(today_dir + "/" + element[0] + ".csv", csv);
-          fs.writeFileSync(latestDir + "/" + element[0] + ".csv", csv);
-          console.log("Write completed: " + element[0]);
-        }
-      }).catch(e => console.log('SOMETHING WENT WRONG error', e));
-    console.log("Fetching: " + element)
+    try{
+      console.log("Reading: " + element[0]);
+      var tempUrl =
+        "https://docs.google.com/spreadsheets/d/e/" +
+        pubId +
+        "/pub?gid=" +
+        element[1] +
+        "&single=false&output=csv";
+      console.log(tempUrl);
+      var url = encodeURI(tempUrl);
+      const settings = { method: "Get" };
+      console.log("Trying to fecth " + tempUrl);
+      await fetch(url, settings)
+        .then((res) => res.text())
+        .then((csv) => {
+          if (csv.includes("</html>")) {
+            console.error("probably not csv!");
+            process.exit(1);
+          } else {
+            // fs.writeFileSync(today_dir + "/" + element[0] + ".csv", csv);
+            fs.writeFileSync(latestDir + "/" + element[0] + ".csv", csv);
+            console.log("Write completed: " + element[0]);
+          }
+        }).catch(e => console.log('SOMETHING WENT WRONG error', e));
+      console.log("Fetching: " + element)
+    } catch (err){
+      console.log("ERRRRRRR: " + err.message) 
+    }
   }
 }
 
