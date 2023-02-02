@@ -24918,7 +24918,8 @@
       "2023-01-30": {
         "delta": {
           "confirmed": 1,
-          "tested": 197
+          "tested": 197,
+          "vaccinated2": 2
         },
         "delta7": {
           "confirmed": 4,
@@ -24926,7 +24927,7 @@
           "recovered": 4,
           "tested": 2679,
           "vaccinated1": 56,
-          "vaccinated2": 77
+          "vaccinated2": 79
         },
         "total": {
           "confirmed": 259120,
@@ -24935,7 +24936,31 @@
           "recovered": 255100,
           "tested": 2139138,
           "vaccinated1": 1439961,
-          "vaccinated2": 1295596
+          "vaccinated2": 1295598
+        }
+      },
+      "2023-01-31": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 2,
+          "tested": 538
+        },
+        "delta7": {
+          "confirmed": 3,
+          "precautionary": 165,
+          "recovered": 3,
+          "tested": 2690,
+          "vaccinated1": 56,
+          "vaccinated2": 78
+        },
+        "total": {
+          "confirmed": 259121,
+          "deceased": 4013,
+          "precautionary": 138325,
+          "recovered": 255102,
+          "tested": 2139676,
+          "vaccinated1": 1439961,
+          "vaccinated2": 1295598
         }
       }
     },
@@ -47172,6 +47197,33 @@
               "vaccinated1": 759376,
               "vaccinated2": 690026
             }
+          },
+          "2023-01-30": {
+            "delta7": {
+              "precautionary": 105,
+              "vaccinated1": 25,
+              "vaccinated2": 42
+            },
+            "total": {
+              "precautionary": 77363,
+              "vaccinated1": 759376,
+              "vaccinated2": 690026
+            }
+          },
+          "2023-01-31": {
+            "delta": {
+              "vaccinated2": 2
+            },
+            "delta7": {
+              "precautionary": 100,
+              "vaccinated1": 25,
+              "vaccinated2": 43
+            },
+            "total": {
+              "precautionary": 77363,
+              "vaccinated1": 759376,
+              "vaccinated2": 690028
+            }
           }
         }
       },
@@ -63321,6 +63373,21 @@
               "confirmed": 259120,
               "deceased": 4013,
               "recovered": 255100
+            }
+          },
+          "2023-01-31": {
+            "delta": {
+              "confirmed": 1,
+              "recovered": 2
+            },
+            "delta7": {
+              "confirmed": 3,
+              "recovered": 3
+            },
+            "total": {
+              "confirmed": 259121,
+              "deceased": 4013,
+              "recovered": 255102
             }
           }
         }
